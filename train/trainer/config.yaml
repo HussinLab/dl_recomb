@@ -1,0 +1,8 @@
+trainingInput:
+  scaleTier: CUSTOM
+  # Configure a master worker n1-standard-8 (8vcpu, 30GB, 0.38$) and 1 T4 GPUs
+  masterType: n1-standard-8
+  masterConfig:
+    acceleratorConfig:
+      count: 1
+      type: NVIDIA_TESLA_T4 

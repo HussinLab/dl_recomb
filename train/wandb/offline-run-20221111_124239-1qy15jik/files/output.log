@@ -1,0 +1,785 @@
+/lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/trainer/code/dataloading/dataloading.py:218: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  data_dict['ex_type'] = np.array(example_set_index)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x148282dc5910>: Failed to establish a new connection: [Errno 110] Connection timed out')': /api/5288891/envelope/
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best/assets
+wandb: Adding directory to artifact (/lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best)... Done. 0.1s
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best/assets
+wandb: Adding directory to artifact (/lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best)... Done. 0.1s
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1482618bcac0>: Failed to establish a new connection: [Errno 110] Connection timed out')': /api/5288891/envelope/
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best/assets
+wandb: Adding directory to artifact (/lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best)... Done. 0.1s
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 2 of 2). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best/assets
+wandb: Adding directory to artifact (/lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/train/wandb/offline-run-20221111_124239-1qy15jik/files/model-best)... Done. 0.1s
+File /lustre06/project/6065672/otastet1/projects/prdm9_chipseq/recode/build_dataset/datasets/AA1_hotspots_seqlen=2000_multnegs.h5 was successfully opened
+File opened. Found the following Folds:
+['test', 'train']
+Fold folder opened. Found the following datasets:
+['chr_10_neg_(1000, 5000)_meta', 'chr_10_neg_(1000, 5000)_seq', 'chr_10_neg_(10000, 20000)_meta', 'chr_10_neg_(10000, 20000)_seq', 'chr_10_neg_(20000, 100000)_meta', 'chr_10_neg_(20000, 100000)_seq', 'chr_10_neg_(5000, 10000)_meta', 'chr_10_neg_(5000, 10000)_seq', 'chr_10_pos_meta', 'chr_10_pos_out', 'chr_10_pos_seq', 'chr_11_neg_(1000, 5000)_meta', 'chr_11_neg_(1000, 5000)_seq', 'chr_11_neg_(10000, 20000)_meta', 'chr_11_neg_(10000, 20000)_seq', 'chr_11_neg_(20000, 100000)_meta', 'chr_11_neg_(20000, 100000)_seq', 'chr_11_neg_(5000, 10000)_meta', 'chr_11_neg_(5000, 10000)_seq', 'chr_11_pos_meta', 'chr_11_pos_out', 'chr_11_pos_seq', 'chr_12_neg_(1000, 5000)_meta', 'chr_12_neg_(1000, 5000)_seq', 'chr_12_neg_(10000, 20000)_meta', 'chr_12_neg_(10000, 20000)_seq', 'chr_12_neg_(20000, 100000)_meta', 'chr_12_neg_(20000, 100000)_seq', 'chr_12_neg_(5000, 10000)_meta', 'chr_12_neg_(5000, 10000)_seq', 'chr_12_pos_meta', 'chr_12_pos_out', 'chr_12_pos_seq', 'chr_13_neg_(1000, 5000)_meta', 'chr_13_neg_(1000, 5000)_seq', 'chr_13_neg_(10000, 20000)_meta', 'chr_13_neg_(10000, 20000)_seq', 'chr_13_neg_(20000, 100000)_meta', 'chr_13_neg_(20000, 100000)_seq', 'chr_13_neg_(5000, 10000)_meta', 'chr_13_neg_(5000, 10000)_seq', 'chr_13_pos_meta', 'chr_13_pos_out', 'chr_13_pos_seq', 'chr_14_neg_(1000, 5000)_meta', 'chr_14_neg_(1000, 5000)_seq', 'chr_14_neg_(10000, 20000)_meta', 'chr_14_neg_(10000, 20000)_seq', 'chr_14_neg_(20000, 100000)_meta', 'chr_14_neg_(20000, 100000)_seq', 'chr_14_neg_(5000, 10000)_meta', 'chr_14_neg_(5000, 10000)_seq', 'chr_14_pos_meta', 'chr_14_pos_out', 'chr_14_pos_seq', 'chr_15_neg_(1000, 5000)_meta', 'chr_15_neg_(1000, 5000)_seq', 'chr_15_neg_(10000, 20000)_meta', 'chr_15_neg_(10000, 20000)_seq', 'chr_15_neg_(20000, 100000)_meta', 'chr_15_neg_(20000, 100000)_seq', 'chr_15_neg_(5000, 10000)_meta', 'chr_15_neg_(5000, 10000)_seq', 'chr_15_pos_meta', 'chr_15_pos_out', 'chr_15_pos_seq', 'chr_16_neg_(1000, 5000)_meta', 'chr_16_neg_(1000, 5000)_seq', 'chr_16_neg_(10000, 20000)_meta', 'chr_16_neg_(10000, 20000)_seq', 'chr_16_neg_(20000, 100000)_meta', 'chr_16_neg_(20000, 100000)_seq', 'chr_16_neg_(5000, 10000)_meta', 'chr_16_neg_(5000, 10000)_seq', 'chr_16_pos_meta', 'chr_16_pos_out', 'chr_16_pos_seq', 'chr_17_neg_(1000, 5000)_meta', 'chr_17_neg_(1000, 5000)_seq', 'chr_17_neg_(10000, 20000)_meta', 'chr_17_neg_(10000, 20000)_seq', 'chr_17_neg_(20000, 100000)_meta', 'chr_17_neg_(20000, 100000)_seq', 'chr_17_neg_(5000, 10000)_meta', 'chr_17_neg_(5000, 10000)_seq', 'chr_17_pos_meta', 'chr_17_pos_out', 'chr_17_pos_seq', 'chr_18_neg_(1000, 5000)_meta', 'chr_18_neg_(1000, 5000)_seq', 'chr_18_neg_(10000, 20000)_meta', 'chr_18_neg_(10000, 20000)_seq', 'chr_18_neg_(20000, 100000)_meta', 'chr_18_neg_(20000, 100000)_seq', 'chr_18_neg_(5000, 10000)_meta', 'chr_18_neg_(5000, 10000)_seq', 'chr_18_pos_meta', 'chr_18_pos_out', 'chr_18_pos_seq', 'chr_19_neg_(1000, 5000)_meta', 'chr_19_neg_(1000, 5000)_seq', 'chr_19_neg_(10000, 20000)_meta', 'chr_19_neg_(10000, 20000)_seq', 'chr_19_neg_(20000, 100000)_meta', 'chr_19_neg_(20000, 100000)_seq', 'chr_19_neg_(5000, 10000)_meta', 'chr_19_neg_(5000, 10000)_seq', 'chr_19_pos_meta', 'chr_19_pos_out', 'chr_19_pos_seq', 'chr_1_neg_(1000, 5000)_meta', 'chr_1_neg_(1000, 5000)_seq', 'chr_1_neg_(10000, 20000)_meta', 'chr_1_neg_(10000, 20000)_seq', 'chr_1_neg_(20000, 100000)_meta', 'chr_1_neg_(20000, 100000)_seq', 'chr_1_neg_(5000, 10000)_meta', 'chr_1_neg_(5000, 10000)_seq', 'chr_1_pos_meta', 'chr_1_pos_out', 'chr_1_pos_seq', 'chr_20_neg_(1000, 5000)_meta', 'chr_20_neg_(1000, 5000)_seq', 'chr_20_neg_(10000, 20000)_meta', 'chr_20_neg_(10000, 20000)_seq', 'chr_20_neg_(20000, 100000)_meta', 'chr_20_neg_(20000, 100000)_seq', 'chr_20_neg_(5000, 10000)_meta', 'chr_20_neg_(5000, 10000)_seq', 'chr_20_pos_meta', 'chr_20_pos_out', 'chr_20_pos_seq', 'chr_21_neg_(1000, 5000)_meta', 'chr_21_neg_(1000, 5000)_seq', 'chr_21_neg_(10000, 20000)_meta', 'chr_21_neg_(10000, 20000)_seq', 'chr_21_neg_(20000, 100000)_meta', 'chr_21_neg_(20000, 100000)_seq', 'chr_21_neg_(5000, 10000)_meta', 'chr_21_neg_(5000, 10000)_seq', 'chr_21_pos_meta', 'chr_21_pos_out', 'chr_21_pos_seq', 'chr_22_neg_(1000, 5000)_meta', 'chr_22_neg_(1000, 5000)_seq', 'chr_22_neg_(10000, 20000)_meta', 'chr_22_neg_(10000, 20000)_seq', 'chr_22_neg_(20000, 100000)_meta', 'chr_22_neg_(20000, 100000)_seq', 'chr_22_neg_(5000, 10000)_meta', 'chr_22_neg_(5000, 10000)_seq', 'chr_22_pos_meta', 'chr_22_pos_out', 'chr_22_pos_seq', 'chr_2_neg_(1000, 5000)_meta', 'chr_2_neg_(1000, 5000)_seq', 'chr_2_neg_(10000, 20000)_meta', 'chr_2_neg_(10000, 20000)_seq', 'chr_2_neg_(20000, 100000)_meta', 'chr_2_neg_(20000, 100000)_seq', 'chr_2_neg_(5000, 10000)_meta', 'chr_2_neg_(5000, 10000)_seq', 'chr_2_pos_meta', 'chr_2_pos_out', 'chr_2_pos_seq', 'chr_3_neg_(1000, 5000)_meta', 'chr_3_neg_(1000, 5000)_seq', 'chr_3_neg_(10000, 20000)_meta', 'chr_3_neg_(10000, 20000)_seq', 'chr_3_neg_(20000, 100000)_meta', 'chr_3_neg_(20000, 100000)_seq', 'chr_3_neg_(5000, 10000)_meta', 'chr_3_neg_(5000, 10000)_seq', 'chr_3_pos_meta', 'chr_3_pos_out', 'chr_3_pos_seq', 'chr_4_neg_(1000, 5000)_meta', 'chr_4_neg_(1000, 5000)_seq', 'chr_4_neg_(10000, 20000)_meta', 'chr_4_neg_(10000, 20000)_seq', 'chr_4_neg_(20000, 100000)_meta', 'chr_4_neg_(20000, 100000)_seq', 'chr_4_neg_(5000, 10000)_meta', 'chr_4_neg_(5000, 10000)_seq', 'chr_4_pos_meta', 'chr_4_pos_out', 'chr_4_pos_seq', 'chr_5_neg_(1000, 5000)_meta', 'chr_5_neg_(1000, 5000)_seq', 'chr_5_neg_(10000, 20000)_meta', 'chr_5_neg_(10000, 20000)_seq', 'chr_5_neg_(20000, 100000)_meta', 'chr_5_neg_(20000, 100000)_seq', 'chr_5_neg_(5000, 10000)_meta', 'chr_5_neg_(5000, 10000)_seq', 'chr_5_pos_meta', 'chr_5_pos_out', 'chr_5_pos_seq', 'chr_6_neg_(1000, 5000)_meta', 'chr_6_neg_(1000, 5000)_seq', 'chr_6_neg_(10000, 20000)_meta', 'chr_6_neg_(10000, 20000)_seq', 'chr_6_neg_(20000, 100000)_meta', 'chr_6_neg_(20000, 100000)_seq', 'chr_6_neg_(5000, 10000)_meta', 'chr_6_neg_(5000, 10000)_seq', 'chr_6_pos_meta', 'chr_6_pos_out', 'chr_6_pos_seq', 'chr_7_neg_(1000, 5000)_meta', 'chr_7_neg_(1000, 5000)_seq', 'chr_7_neg_(10000, 20000)_meta', 'chr_7_neg_(10000, 20000)_seq', 'chr_7_neg_(20000, 100000)_meta', 'chr_7_neg_(20000, 100000)_seq', 'chr_7_neg_(5000, 10000)_meta', 'chr_7_neg_(5000, 10000)_seq', 'chr_7_pos_meta', 'chr_7_pos_out', 'chr_7_pos_seq', 'chr_8_neg_(1000, 5000)_meta', 'chr_8_neg_(1000, 5000)_seq', 'chr_8_neg_(10000, 20000)_meta', 'chr_8_neg_(10000, 20000)_seq', 'chr_8_neg_(20000, 100000)_meta', 'chr_8_neg_(20000, 100000)_seq', 'chr_8_neg_(5000, 10000)_meta', 'chr_8_neg_(5000, 10000)_seq', 'chr_8_pos_meta', 'chr_8_pos_out', 'chr_8_pos_seq', 'chr_9_neg_(1000, 5000)_meta', 'chr_9_neg_(1000, 5000)_seq', 'chr_9_neg_(10000, 20000)_meta', 'chr_9_neg_(10000, 20000)_seq', 'chr_9_neg_(20000, 100000)_meta', 'chr_9_neg_(20000, 100000)_seq', 'chr_9_neg_(5000, 10000)_meta', 'chr_9_neg_(5000, 10000)_seq', 'chr_9_pos_meta', 'chr_9_pos_out', 'chr_9_pos_seq', 'chr_X_neg_(1000, 5000)_meta', 'chr_X_neg_(1000, 5000)_seq', 'chr_X_neg_(10000, 20000)_meta', 'chr_X_neg_(10000, 20000)_seq', 'chr_X_neg_(20000, 100000)_meta', 'chr_X_neg_(20000, 100000)_seq', 'chr_X_neg_(5000, 10000)_meta', 'chr_X_neg_(5000, 10000)_seq', 'chr_X_pos_meta', 'chr_X_pos_out', 'chr_X_pos_seq', 'chr_Y_neg_(1000, 5000)_meta', 'chr_Y_neg_(1000, 5000)_seq', 'chr_Y_neg_(10000, 20000)_meta', 'chr_Y_neg_(10000, 20000)_seq', 'chr_Y_neg_(20000, 100000)_meta', 'chr_Y_neg_(20000, 100000)_seq', 'chr_Y_neg_(5000, 10000)_meta', 'chr_Y_neg_(5000, 10000)_seq', 'chr_Y_pos_meta', 'chr_Y_pos_out', 'chr_Y_pos_seq']
+Dataset Metadata:
+{'chroms': ['chr_1', 'chr_10', 'chr_11', 'chr_12', 'chr_13', 'chr_14', 'chr_15', 'chr_16', 'chr_17', 'chr_18', 'chr_19', 'chr_2', 'chr_20', 'chr_21', 'chr_22', 'chr_3', 'chr_4', 'chr_5', 'chr_6', 'chr_7', 'chr_8', 'chr_9', 'chr_X', 'chr_Y'], 'dataset_params': {'type': 'by_chrom', 'random_seed': None, 'date': '2022-10-18 17:57:22.559326'}, 'names_suffix': {'positive_dataset': '_pos_', 'negative_dataset': '_neg_', 'model_input': '_seq', 'model_output': '_out', 'chrom_extra_info': '_meta'}, 'num_2_base_dict': {'0': 'A', '1': 'C', '2': 'T', '3': 'G', '4': 'R'}, 'encoding_dict': {'A': 0, 'C': 1, 'T': 2, 'G': 3, 'N': 4, 'M': 4, 'R': 4}, 'num_reverse_compliment_dict': {'0': 2, '2': 0, '1': 3, '3': 1, '4': 4}, 'positive_metadata_cols': ['start', 'end', 'seq_midpoint', 'original_A', 'original_C', 'original_T', 'original_G', 'example_A', 'example_C', 'example_T', 'example_G', 'AA1_hotspots'], 'negative_metadata_cols': ['start', 'end', 'seq_midpoint', 'original_A', 'original_C', 'original_T', 'original_G', 'example_A', 'example_C', 'example_T', 'example_G'], 'binarize_output': True, 'negative_sampling_intervals': [[1000, 5000], [5000, 10000], [10000, 20000], [20000, 100000]], 'chroms_lens': {'chr_1': 249250621, 'chr_2': 243199373, 'chr_3': 198022430, 'chr_4': 191154276, 'chr_5': 180915260, 'chr_6': 171115067, 'chr_7': 159138663, 'chr_8': 146364022, 'chr_9': 141213431, 'chr_10': 135534747, 'chr_11': 135006516, 'chr_12': 133851895, 'chr_13': 115169878, 'chr_14': 107349540, 'chr_15': 102531392, 'chr_16': 90354753, 'chr_17': 81195210, 'chr_18': 78077248, 'chr_19': 59128983, 'chr_20': 63025520, 'chr_21': 48129895, 'chr_22': 51304566, 'chr_X': 155270560, 'chr_Y': 59373566, 'chr_MT': 16569}, 'test_set_size': 0.1, 'random_seed': 123}
+Renamed Negative Examples:
+{(1000, 5000): 1.0}
+Expanding output out into its individual columns ['AA1_hotspots']
+GETTING META chr_1_pos_meta
+3690 1926.0
+GETTING META chr_1_neg_(1000, 5000)_meta
+3852 Training examples generated for chrom 1
+	1926 positive, 1926 negative
+GETTING META chr_2_pos_meta
+3741 1950.0
+GETTING META chr_2_neg_(1000, 5000)_meta
+3900 Training examples generated for chrom 2
+	1950 positive, 1950 negative
+GETTING META chr_3_pos_meta
+2865 1500.0
+GETTING META chr_3_neg_(1000, 5000)_meta
+3000 Training examples generated for chrom 3
+	1500 positive, 1500 negative
+GETTING META chr_4_pos_meta
+3008 1577.0
+GETTING META chr_4_neg_(1000, 5000)_meta
+3154 Training examples generated for chrom 4
+	1577 positive, 1577 negative
+GETTING META chr_5_pos_meta
+2703 1423.0
+GETTING META chr_5_neg_(1000, 5000)_meta
+2846 Training examples generated for chrom 5
+	1423 positive, 1423 negative
+GETTING META chr_6_pos_meta
+2595 1362.0
+GETTING META chr_6_neg_(1000, 5000)_meta
+2724 Training examples generated for chrom 6
+	1362 positive, 1362 negative
+GETTING META chr_7_pos_meta
+2310 1209.0
+GETTING META chr_7_neg_(1000, 5000)_meta
+2418 Training examples generated for chrom 7
+	1209 positive, 1209 negative
+GETTING META chr_8_pos_meta
+2120 1120.0
+GETTING META chr_8_neg_(1000, 5000)_meta
+2240 Training examples generated for chrom 8
+	1120 positive, 1120 negative
+GETTING META chr_9_pos_meta
+1818 963.0
+GETTING META chr_9_neg_(1000, 5000)_meta
+1926 Training examples generated for chrom 9
+	963 positive, 963 negative
+GETTING META chr_10_pos_meta
+1865 984.0
+GETTING META chr_10_neg_(1000, 5000)_meta
+1968 Training examples generated for chrom 10
+	984 positive, 984 negative
+GETTING META chr_11_pos_meta
+1704 918.0
+GETTING META chr_11_neg_(1000, 5000)_meta
+1836 Training examples generated for chrom 11
+	918 positive, 918 negative
+GETTING META chr_12_pos_meta
+1829 981.0
+GETTING META chr_12_neg_(1000, 5000)_meta
+1962 Training examples generated for chrom 12
+	981 positive, 981 negative
+GETTING META chr_13_pos_meta
+1747 910.0
+GETTING META chr_13_neg_(1000, 5000)_meta
+1820 Training examples generated for chrom 13
+	910 positive, 910 negative
+GETTING META chr_14_pos_meta
+1733 908.0
+GETTING META chr_14_neg_(1000, 5000)_meta
+1816 Training examples generated for chrom 14
+	908 positive, 908 negative
+GETTING META chr_15_pos_meta
+1435 759.0
+GETTING META chr_15_neg_(1000, 5000)_meta
+1518 Training examples generated for chrom 15
+	759 positive, 759 negative
+GETTING META chr_16_pos_meta
+1215 650.0
+GETTING META chr_16_neg_(1000, 5000)_meta
+1300 Training examples generated for chrom 16
+	650 positive, 650 negative
+GETTING META chr_17_pos_meta
+1076 576.0
+GETTING META chr_17_neg_(1000, 5000)_meta
+1152 Training examples generated for chrom 17
+	576 positive, 576 negative
+GETTING META chr_18_pos_meta
+1236 664.0
+GETTING META chr_18_neg_(1000, 5000)_meta
+1328 Training examples generated for chrom 18
+	664 positive, 664 negative
+GETTING META chr_19_pos_meta
+904 479.0
+GETTING META chr_19_neg_(1000, 5000)_meta
+958 Training examples generated for chrom 19
+	479 positive, 479 negative
+GETTING META chr_20_pos_meta
+835 449.0
+GETTING META chr_20_neg_(1000, 5000)_meta
+898 Training examples generated for chrom 20
+	449 positive, 449 negative
+GETTING META chr_21_pos_meta
+821 449.0
+GETTING META chr_21_neg_(1000, 5000)_meta
+898 Training examples generated for chrom 21
+	449 positive, 449 negative
+GETTING META chr_22_pos_meta
+793 430.0
+GETTING META chr_22_neg_(1000, 5000)_meta
+860 Training examples generated for chrom 22
+	430 positive, 430 negative
+There are 39930 examples in the dataset
+[{'input': {'seq': [], 'midpoint': []}, 'output': {'AA1_hotspots': []}, 'index': {'chrom_idx': [], 'index': [], 'ex_type': [], 'ds_index': []}}, {'input': {'seq': [], 'midpoint': []}, 'output': {'AA1_hotspots': []}, 'index': {'chrom_idx': [], 'index': [], 'ex_type': [], 'ds_index': []}}, {'input': {'seq': [], 'midpoint': []}, 'output': {'AA1_hotspots': []}, 'index': {'chrom_idx': [], 'index': [], 'ex_type': [], 'ds_index': []}}]
+AA1_hotspots ['AA1_hotspots']
+Epoch 1/10
+209/209 [==============================] - 38s 166ms/step - loss: 0.6196 - accuracy: 0.6594 - auc: 0.7173 - precision: 0.6869 - precision_m: 0.7002 - recall: 0.5865 - recall_m: 0.5895 - f1_m: 0.6345 - val_loss: 0.5235 - val_accuracy: 0.7150 - val_auc: 0.7960 - val_precision: 0.9223 - val_precision_m: 0.9409 - val_recall: 0.4685 - val_recall_m: 0.4686 - val_f1_m: 0.6169
+Epoch 2/10
+209/209 [==============================] - 30s 142ms/step - loss: 0.5116 - accuracy: 0.7301 - auc: 0.8048 - precision: 0.7959 - precision_m: 0.8005 - recall: 0.6194 - recall_m: 0.6222 - f1_m: 0.6966 - val_loss: 0.5791 - val_accuracy: 0.7113 - val_auc: 0.8098 - val_precision: 0.9378 - val_precision_m: 0.9394 - val_recall: 0.4517 - val_recall_m: 0.4520 - val_f1_m: 0.6065
+Epoch 3/10
+209/209 [==============================] - 29s 138ms/step - loss: 0.4514 - accuracy: 0.7781 - auc: 0.8593 - precision: 0.8183 - precision_m: 0.8211 - recall: 0.7154 - recall_m: 0.7182 - f1_m: 0.7637 - val_loss: 0.7546 - val_accuracy: 0.6785 - val_auc: 0.8854 - val_precision: 0.9975 - val_precision_m: 0.9978 - val_recall: 0.3570 - val_recall_m: 0.3570 - val_f1_m: 0.5220
+Epoch 4/10
+209/209 [==============================] - 28s 134ms/step - loss: 0.3733 - accuracy: 0.8345 - auc: 0.9094 - precision: 0.8612 - precision_m: 0.8627 - recall: 0.7977 - recall_m: 0.8006 - f1_m: 0.8287 - val_loss: 0.5609 - val_accuracy: 0.7937 - val_auc: 0.9295 - val_precision: 0.9726 - val_precision_m: 0.9725 - val_recall: 0.6037 - val_recall_m: 0.6036 - val_f1_m: 0.7431
+Epoch 5/10
+209/209 [==============================] - 34s 163ms/step - loss: 0.3296 - accuracy: 0.8589 - auc: 0.9312 - precision: 0.8778 - precision_m: 0.8789 - recall: 0.8341 - recall_m: 0.8366 - f1_m: 0.8557 - val_loss: 0.3937 - val_accuracy: 0.8145 - val_auc: 0.9320 - val_precision: 0.9763 - val_precision_m: 0.9763 - val_recall: 0.6441 - val_recall_m: 0.6440 - val_f1_m: 0.7743
+Epoch 6/10
+209/209 [==============================] - 28s 135ms/step - loss: 0.3086 - accuracy: 0.8702 - auc: 0.9398 - precision: 0.8845 - precision_m: 0.8852 - recall: 0.8518 - recall_m: 0.8541 - f1_m: 0.8681 - val_loss: 0.4152 - val_accuracy: 0.8406 - val_auc: 0.9497 - val_precision: 0.9738 - val_precision_m: 0.9739 - val_recall: 0.6996 - val_recall_m: 0.6998 - val_f1_m: 0.8129
+Epoch 7/10
+
+209/209 [==============================] - ETA: 0s - loss: 0.2937 - accuracy: 0.8798 - auc: 0.9458 - precision: 0.8935 - precision_m: 0.8944 - recall: 0.8625 - recall_m: 0.8650 - f1_m: 0.8781
+209/209 [==============================] - 34s 162ms/step - loss: 0.2937 - accuracy: 0.8798 - auc: 0.9458 - precision: 0.8935 - precision_m: 0.8944 - recall: 0.8625 - recall_m: 0.8650 - f1_m: 0.8781 - val_loss: 0.2719 - val_accuracy: 0.8880 - val_auc: 0.9538 - val_precision: 0.8944 - val_precision_m: 0.8951 - val_recall: 0.8796 - val_recall_m: 0.8801 - val_f1_m: 0.8865
+
+  1/209 [..............................] - ETA: 30s - loss: 0.2813 - accuracy: 0.8516 - auc: 0.9518 - precision: 0.8710 - precision_m: 0.8710 - recall: 0.8308 - recall_m: 0.8308 - f1_m: 0.8504
+  2/209 [..............................] - ETA: 25s - loss: 0.2835 - accuracy: 0.8477 - auc: 0.9504 - precision: 0.8175 - precision_m: 0.8183 - recall: 0.8655 - recall_m: 0.8691 - f1_m: 0.8405
+  3/209 [..............................] - ETA: 25s - loss: 0.2610 - accuracy: 0.8724 - auc: 0.9565 - precision: 0.8556 - precision_m: 0.8570 - recall: 0.8791 - recall_m: 0.8810 - f1_m: 0.8668
+  4/209 [..............................] - ETA: 24s - loss: 0.2367 - accuracy: 0.8887 - auc: 0.9654 - precision: 0.8683 - precision_m: 0.8704 - recall: 0.8941 - recall_m: 0.8968 - f1_m: 0.8819
+  5/209 [..............................] - ETA: 24s - loss: 0.2360 - accuracy: 0.8906 - auc: 0.9653 - precision: 0.8818 - precision_m: 0.8850 - recall: 0.8818 - recall_m: 0.8841 - f1_m: 0.8825
+  6/209 [..............................] - ETA: 24s - loss: 0.2405 - accuracy: 0.8945 - auc: 0.9629 - precision: 0.8889 - precision_m: 0.8921 - recall: 0.8814 - recall_m: 0.8833 - f1_m: 0.8859
+  7/209 [>.............................] - ETA: 23s - loss: 0.2414 - accuracy: 0.8929 - auc: 0.9630 - precision: 0.8924 - precision_m: 0.8952 - recall: 0.8753 - recall_m: 0.8773 - f1_m: 0.8845
+  8/209 [>.............................] - ETA: 24s - loss: 0.2672 - accuracy: 0.8809 - auc: 0.9551 - precision: 0.8835 - precision_m: 0.8864 - recall: 0.8616 - recall_m: 0.8647 - f1_m: 0.8739
+  9/209 [>.............................] - ETA: 23s - loss: 0.2669 - accuracy: 0.8828 - auc: 0.9554 - precision: 0.8851 - precision_m: 0.8878 - recall: 0.8640 - recall_m: 0.8667 - f1_m: 0.8758
+ 10/209 [>.............................] - ETA: 23s - loss: 0.2684 - accuracy: 0.8828 - auc: 0.9541 - precision: 0.8904 - precision_m: 0.8933 - recall: 0.8581 - recall_m: 0.8607 - f1_m: 0.8751
+ 11/209 [>.............................] - ETA: 23s - loss: 0.2732 - accuracy: 0.8807 - auc: 0.9525 - precision: 0.8918 - precision_m: 0.8944 - recall: 0.8548 - recall_m: 0.8576 - f1_m: 0.8741
+ 12/209 [>.............................] - ETA: 23s - loss: 0.2718 - accuracy: 0.8815 - auc: 0.9533 - precision: 0.8923 - precision_m: 0.8946 - recall: 0.8587 - recall_m: 0.8609 - f1_m: 0.8760
+ 13/209 [>.............................] - ETA: 23s - loss: 0.2755 - accuracy: 0.8798 - auc: 0.9517 - precision: 0.8903 - precision_m: 0.8924 - recall: 0.8571 - recall_m: 0.8592 - f1_m: 0.8742
+ 14/209 [=>............................] - ETA: 23s - loss: 0.2797 - accuracy: 0.8811 - auc: 0.9501 - precision: 0.8920 - precision_m: 0.8940 - recall: 0.8580 - recall_m: 0.8599 - f1_m: 0.8754
+ 15/209 [=>............................] - ETA: 23s - loss: 0.2782 - accuracy: 0.8823 - auc: 0.9508 - precision: 0.8987 - precision_m: 0.9000 - recall: 0.8567 - recall_m: 0.8587 - f1_m: 0.8775
+ 16/209 [=>............................] - ETA: 23s - loss: 0.2813 - accuracy: 0.8809 - auc: 0.9498 - precision: 0.9011 - precision_m: 0.9023 - recall: 0.8532 - recall_m: 0.8555 - f1_m: 0.8769
+ 17/209 [=>............................] - ETA: 22s - loss: 0.2886 - accuracy: 0.8773 - auc: 0.9472 - precision: 0.8950 - precision_m: 0.8968 - recall: 0.8528 - recall_m: 0.8550 - f1_m: 0.8740
+ 18/209 [=>............................] - ETA: 22s - loss: 0.2904 - accuracy: 0.8754 - auc: 0.9464 - precision: 0.8944 - precision_m: 0.8960 - recall: 0.8499 - recall_m: 0.8521 - f1_m: 0.8722
+ 19/209 [=>............................] - ETA: 22s - loss: 0.2881 - accuracy: 0.8762 - auc: 0.9471 - precision: 0.8956 - precision_m: 0.8970 - recall: 0.8522 - recall_m: 0.8540 - f1_m: 0.8737
+ 20/209 [=>............................] - ETA: 22s - loss: 0.2835 - accuracy: 0.8793 - auc: 0.9488 - precision: 0.8979 - precision_m: 0.8991 - recall: 0.8566 - recall_m: 0.8582 - f1_m: 0.8770
+ 21/209 [==>...........................] - ETA: 22s - loss: 0.2841 - accuracy: 0.8776 - auc: 0.9489 - precision: 0.8947 - precision_m: 0.8962 - recall: 0.8569 - recall_m: 0.8585 - f1_m: 0.8757
+ 22/209 [==>...........................] - ETA: 22s - loss: 0.2810 - accuracy: 0.8786 - auc: 0.9500 - precision: 0.8956 - precision_m: 0.8970 - recall: 0.8575 - recall_m: 0.8591 - f1_m: 0.8765
+ 23/209 [==>...........................] - ETA: 22s - loss: 0.2873 - accuracy: 0.8760 - auc: 0.9475 - precision: 0.8952 - precision_m: 0.8965 - recall: 0.8535 - recall_m: 0.8553 - f1_m: 0.8742
+ 24/209 [==>...........................] - ETA: 22s - loss: 0.2843 - accuracy: 0.8776 - auc: 0.9486 - precision: 0.8973 - precision_m: 0.8987 - recall: 0.8544 - recall_m: 0.8561 - f1_m: 0.8757
+ 25/209 [==>...........................] - ETA: 21s - loss: 0.2804 - accuracy: 0.8791 - auc: 0.9499 - precision: 0.8976 - precision_m: 0.8989 - recall: 0.8568 - recall_m: 0.8586 - f1_m: 0.8771
+ 26/209 [==>...........................] - ETA: 21s - loss: 0.2817 - accuracy: 0.8795 - auc: 0.9495 - precision: 0.8993 - precision_m: 0.9007 - recall: 0.8557 - recall_m: 0.8574 - f1_m: 0.8774
+ 27/209 [==>...........................] - ETA: 21s - loss: 0.2802 - accuracy: 0.8793 - auc: 0.9501 - precision: 0.8986 - precision_m: 0.8999 - recall: 0.8555 - recall_m: 0.8571 - f1_m: 0.8769
+ 28/209 [===>..........................] - ETA: 21s - loss: 0.2766 - accuracy: 0.8811 - auc: 0.9516 - precision: 0.8996 - precision_m: 0.9008 - recall: 0.8585 - recall_m: 0.8600 - f1_m: 0.8788
+ 29/209 [===>..........................] - ETA: 21s - loss: 0.2750 - accuracy: 0.8815 - auc: 0.9522 - precision: 0.8976 - precision_m: 0.8988 - recall: 0.8608 - recall_m: 0.8625 - f1_m: 0.8790
+ 30/209 [===>..........................] - ETA: 21s - loss: 0.2741 - accuracy: 0.8826 - auc: 0.9526 - precision: 0.8994 - precision_m: 0.9006 - recall: 0.8615 - recall_m: 0.8631 - f1_m: 0.8802
+ 31/209 [===>..........................] - ETA: 21s - loss: 0.2747 - accuracy: 0.8813 - auc: 0.9525 - precision: 0.8975 - precision_m: 0.8987 - recall: 0.8608 - recall_m: 0.8624 - f1_m: 0.8790
+ 32/209 [===>..........................] - ETA: 21s - loss: 0.2744 - accuracy: 0.8818 - auc: 0.9526 - precision: 0.8991 - precision_m: 0.9003 - recall: 0.8605 - recall_m: 0.8620 - f1_m: 0.8796
+ 33/209 [===>..........................] - ETA: 20s - loss: 0.2719 - accuracy: 0.8823 - auc: 0.9536 - precision: 0.9003 - precision_m: 0.9014 - recall: 0.8608 - recall_m: 0.8623 - f1_m: 0.8803
+ 34/209 [===>..........................] - ETA: 20s - loss: 0.2748 - accuracy: 0.8807 - auc: 0.9527 - precision: 0.8978 - precision_m: 0.8991 - recall: 0.8604 - recall_m: 0.8618 - f1_m: 0.8789
+ 35/209 [====>.........................] - ETA: 20s - loss: 0.2765 - accuracy: 0.8799 - auc: 0.9524 - precision: 0.8960 - precision_m: 0.8972 - recall: 0.8601 - recall_m: 0.8614 - f1_m: 0.8778
+ 36/209 [====>.........................] - ETA: 20s - loss: 0.2749 - accuracy: 0.8813 - auc: 0.9529 - precision: 0.8978 - precision_m: 0.8991 - recall: 0.8608 - recall_m: 0.8621 - f1_m: 0.8791
+ 37/209 [====>.........................] - ETA: 20s - loss: 0.2752 - accuracy: 0.8813 - auc: 0.9528 - precision: 0.8984 - precision_m: 0.8997 - recall: 0.8606 - recall_m: 0.8619 - f1_m: 0.8793
+ 38/209 [====>.........................] - ETA: 20s - loss: 0.2750 - accuracy: 0.8824 - auc: 0.9528 - precision: 0.8997 - precision_m: 0.9010 - recall: 0.8614 - recall_m: 0.8626 - f1_m: 0.8803
+ 39/209 [====>.........................] - ETA: 20s - loss: 0.2749 - accuracy: 0.8826 - auc: 0.9528 - precision: 0.8985 - precision_m: 0.8997 - recall: 0.8625 - recall_m: 0.8639 - f1_m: 0.8803
+ 40/209 [====>.........................] - ETA: 20s - loss: 0.2734 - accuracy: 0.8834 - auc: 0.9534 - precision: 0.8982 - precision_m: 0.8994 - recall: 0.8641 - recall_m: 0.8656 - f1_m: 0.8810
+ 41/209 [====>.........................] - ETA: 19s - loss: 0.2756 - accuracy: 0.8828 - auc: 0.9527 - precision: 0.8976 - precision_m: 0.8988 - recall: 0.8637 - recall_m: 0.8652 - f1_m: 0.8805
+ 42/209 [=====>........................] - ETA: 19s - loss: 0.2785 - accuracy: 0.8817 - auc: 0.9517 - precision: 0.8983 - precision_m: 0.8994 - recall: 0.8616 - recall_m: 0.8633 - f1_m: 0.8798
+ 43/209 [=====>........................] - ETA: 19s - loss: 0.2824 - accuracy: 0.8810 - auc: 0.9509 - precision: 0.8964 - precision_m: 0.8976 - recall: 0.8623 - recall_m: 0.8640 - f1_m: 0.8793
+ 44/209 [=====>........................] - ETA: 19s - loss: 0.2836 - accuracy: 0.8812 - auc: 0.9504 - precision: 0.8958 - precision_m: 0.8970 - recall: 0.8630 - recall_m: 0.8648 - f1_m: 0.8794
+ 45/209 [=====>........................] - ETA: 19s - loss: 0.2847 - accuracy: 0.8802 - auc: 0.9500 - precision: 0.8953 - precision_m: 0.8965 - recall: 0.8618 - recall_m: 0.8636 - f1_m: 0.8786
+ 46/209 [=====>........................] - ETA: 19s - loss: 0.2859 - accuracy: 0.8792 - auc: 0.9495 - precision: 0.8941 - precision_m: 0.8952 - recall: 0.8610 - recall_m: 0.8627 - f1_m: 0.8776
+ 47/209 [=====>........................] - ETA: 19s - loss: 0.2835 - accuracy: 0.8810 - auc: 0.9503 - precision: 0.8956 - precision_m: 0.8968 - recall: 0.8629 - recall_m: 0.8647 - f1_m: 0.8793
+ 48/209 [=====>........................] - ETA: 19s - loss: 0.2848 - accuracy: 0.8800 - auc: 0.9498 - precision: 0.8946 - precision_m: 0.8957 - recall: 0.8617 - recall_m: 0.8634 - f1_m: 0.8781
+ 49/209 [======>.......................] - ETA: 19s - loss: 0.2851 - accuracy: 0.8796 - auc: 0.9497 - precision: 0.8947 - precision_m: 0.8958 - recall: 0.8608 - recall_m: 0.8625 - f1_m: 0.8777
+ 50/209 [======>.......................] - ETA: 19s - loss: 0.2850 - accuracy: 0.8800 - auc: 0.9497 - precision: 0.8955 - precision_m: 0.8964 - recall: 0.8615 - recall_m: 0.8630 - f1_m: 0.8783
+ 51/209 [======>.......................] - ETA: 18s - loss: 0.2849 - accuracy: 0.8802 - auc: 0.9498 - precision: 0.8947 - precision_m: 0.8957 - recall: 0.8630 - recall_m: 0.8645 - f1_m: 0.8787
+ 52/209 [======>.......................] - ETA: 18s - loss: 0.2852 - accuracy: 0.8801 - auc: 0.9498 - precision: 0.8953 - precision_m: 0.8963 - recall: 0.8627 - recall_m: 0.8642 - f1_m: 0.8789
+ 53/209 [======>.......................] - ETA: 18s - loss: 0.2845 - accuracy: 0.8803 - auc: 0.9500 - precision: 0.8960 - precision_m: 0.8970 - recall: 0.8625 - recall_m: 0.8639 - f1_m: 0.8791
+ 54/209 [======>.......................] - ETA: 18s - loss: 0.2853 - accuracy: 0.8795 - auc: 0.9496 - precision: 0.8947 - precision_m: 0.8957 - recall: 0.8621 - recall_m: 0.8635 - f1_m: 0.8782
+ 55/209 [======>.......................] - ETA: 18s - loss: 0.2852 - accuracy: 0.8797 - auc: 0.9496 - precision: 0.8950 - precision_m: 0.8960 - recall: 0.8619 - recall_m: 0.8633 - f1_m: 0.8783
+ 56/209 [=======>......................] - ETA: 18s - loss: 0.2851 - accuracy: 0.8795 - auc: 0.9495 - precision: 0.8950 - precision_m: 0.8959 - recall: 0.8617 - recall_m: 0.8631 - f1_m: 0.8782
+ 57/209 [=======>......................] - ETA: 18s - loss: 0.2837 - accuracy: 0.8806 - auc: 0.9500 - precision: 0.8958 - precision_m: 0.8968 - recall: 0.8628 - recall_m: 0.8643 - f1_m: 0.8792
+ 58/209 [=======>......................] - ETA: 17s - loss: 0.2828 - accuracy: 0.8811 - auc: 0.9502 - precision: 0.8967 - precision_m: 0.8977 - recall: 0.8628 - recall_m: 0.8642 - f1_m: 0.8796
+ 59/209 [=======>......................] - ETA: 17s - loss: 0.2826 - accuracy: 0.8808 - auc: 0.9503 - precision: 0.8969 - precision_m: 0.8979 - recall: 0.8624 - recall_m: 0.8638 - f1_m: 0.8795
+ 60/209 [=======>......................] - ETA: 17s - loss: 0.2835 - accuracy: 0.8805 - auc: 0.9501 - precision: 0.8966 - precision_m: 0.8976 - recall: 0.8623 - recall_m: 0.8638 - f1_m: 0.8794
+ 61/209 [=======>......................] - ETA: 17s - loss: 0.2834 - accuracy: 0.8806 - auc: 0.9501 - precision: 0.8964 - precision_m: 0.8974 - recall: 0.8627 - recall_m: 0.8641 - f1_m: 0.8795
+ 62/209 [=======>......................] - ETA: 17s - loss: 0.2824 - accuracy: 0.8812 - auc: 0.9504 - precision: 0.8967 - precision_m: 0.8977 - recall: 0.8633 - recall_m: 0.8647 - f1_m: 0.8799
+ 63/209 [========>.....................] - ETA: 17s - loss: 0.2826 - accuracy: 0.8811 - auc: 0.9503 - precision: 0.8969 - precision_m: 0.8979 - recall: 0.8631 - recall_m: 0.8645 - f1_m: 0.8799
+ 64/209 [========>.....................] - ETA: 17s - loss: 0.2830 - accuracy: 0.8812 - auc: 0.9502 - precision: 0.8961 - precision_m: 0.8971 - recall: 0.8641 - recall_m: 0.8656 - f1_m: 0.8801
+ 65/209 [========>.....................] - ETA: 17s - loss: 0.2820 - accuracy: 0.8819 - auc: 0.9505 - precision: 0.8963 - precision_m: 0.8973 - recall: 0.8648 - recall_m: 0.8663 - f1_m: 0.8805
+ 66/209 [========>.....................] - ETA: 17s - loss: 0.2810 - accuracy: 0.8822 - auc: 0.9508 - precision: 0.8967 - precision_m: 0.8977 - recall: 0.8652 - recall_m: 0.8667 - f1_m: 0.8809
+ 67/209 [========>.....................] - ETA: 16s - loss: 0.2813 - accuracy: 0.8823 - auc: 0.9507 - precision: 0.8963 - precision_m: 0.8973 - recall: 0.8652 - recall_m: 0.8667 - f1_m: 0.8808
+ 68/209 [========>.....................] - ETA: 16s - loss: 0.2817 - accuracy: 0.8824 - auc: 0.9505 - precision: 0.8963 - precision_m: 0.8972 - recall: 0.8650 - recall_m: 0.8664 - f1_m: 0.8806
+ 69/209 [========>.....................] - ETA: 16s - loss: 0.2828 - accuracy: 0.8821 - auc: 0.9502 - precision: 0.8967 - precision_m: 0.8976 - recall: 0.8640 - recall_m: 0.8655 - f1_m: 0.8803
+ 70/209 [=========>....................] - ETA: 16s - loss: 0.2832 - accuracy: 0.8817 - auc: 0.9500 - precision: 0.8969 - precision_m: 0.8979 - recall: 0.8629 - recall_m: 0.8644 - f1_m: 0.8798
+ 71/209 [=========>....................] - ETA: 16s - loss: 0.2838 - accuracy: 0.8814 - auc: 0.9498 - precision: 0.8964 - precision_m: 0.8973 - recall: 0.8629 - recall_m: 0.8643 - f1_m: 0.8795
+ 72/209 [=========>....................] - ETA: 16s - loss: 0.2831 - accuracy: 0.8815 - auc: 0.9500 - precision: 0.8959 - precision_m: 0.8968 - recall: 0.8633 - recall_m: 0.8647 - f1_m: 0.8795
+ 73/209 [=========>....................] - ETA: 16s - loss: 0.2843 - accuracy: 0.8812 - auc: 0.9495 - precision: 0.8964 - precision_m: 0.8973 - recall: 0.8623 - recall_m: 0.8638 - f1_m: 0.8793
+ 74/209 [=========>....................] - ETA: 16s - loss: 0.2843 - accuracy: 0.8813 - auc: 0.9495 - precision: 0.8966 - precision_m: 0.8975 - recall: 0.8625 - recall_m: 0.8640 - f1_m: 0.8794
+ 75/209 [=========>....................] - ETA: 16s - loss: 0.2851 - accuracy: 0.8807 - auc: 0.9492 - precision: 0.8959 - precision_m: 0.8967 - recall: 0.8617 - recall_m: 0.8632 - f1_m: 0.8786
+ 77/209 [==========>...................] - ETA: 15s - loss: 0.2849 - accuracy: 0.8807 - auc: 0.9492 - precision: 0.8962 - precision_m: 0.8983 - recall: 0.8614 - recall_m: 0.8646 - f1_m: 0.8802
+ 78/209 [==========>...................] - ETA: 15s - loss: 0.2842 - accuracy: 0.8808 - auc: 0.9494 - precision: 0.8958 - precision_m: 0.8979 - recall: 0.8619 - recall_m: 0.8650 - f1_m: 0.8802
+ 79/209 [==========>...................] - ETA: 15s - loss: 0.2846 - accuracy: 0.8808 - auc: 0.9493 - precision: 0.8948 - precision_m: 0.8969 - recall: 0.8625 - recall_m: 0.8658 - f1_m: 0.8800
+ 80/209 [==========>...................] - ETA: 15s - loss: 0.2837 - accuracy: 0.8815 - auc: 0.9496 - precision: 0.8958 - precision_m: 0.8978 - recall: 0.8629 - recall_m: 0.8661 - f1_m: 0.8806
+ 81/209 [==========>...................] - ETA: 15s - loss: 0.2833 - accuracy: 0.8816 - auc: 0.9497 - precision: 0.8955 - precision_m: 0.8975 - recall: 0.8631 - recall_m: 0.8663 - f1_m: 0.8806
+ 82/209 [==========>...................] - ETA: 15s - loss: 0.2831 - accuracy: 0.8815 - auc: 0.9497 - precision: 0.8955 - precision_m: 0.8975 - recall: 0.8628 - recall_m: 0.8659 - f1_m: 0.8804
+ 83/209 [==========>...................] - ETA: 14s - loss: 0.2829 - accuracy: 0.8818 - auc: 0.9498 - precision: 0.8965 - precision_m: 0.8985 - recall: 0.8625 - recall_m: 0.8656 - f1_m: 0.8807
+ 84/209 [===========>..................] - ETA: 14s - loss: 0.2825 - accuracy: 0.8822 - auc: 0.9499 - precision: 0.8968 - precision_m: 0.8987 - recall: 0.8630 - recall_m: 0.8661 - f1_m: 0.8811
+ 85/209 [===========>..................] - ETA: 14s - loss: 0.2822 - accuracy: 0.8824 - auc: 0.9500 - precision: 0.8975 - precision_m: 0.8994 - recall: 0.8629 - recall_m: 0.8660 - f1_m: 0.8813
+ 86/209 [===========>..................] - ETA: 14s - loss: 0.2818 - accuracy: 0.8825 - auc: 0.9501 - precision: 0.8985 - precision_m: 0.9004 - recall: 0.8624 - recall_m: 0.8655 - f1_m: 0.8815
+ 87/209 [===========>..................] - ETA: 14s - loss: 0.2824 - accuracy: 0.8825 - auc: 0.9500 - precision: 0.8981 - precision_m: 0.9000 - recall: 0.8629 - recall_m: 0.8659 - f1_m: 0.8816
+ 88/209 [===========>..................] - ETA: 14s - loss: 0.2821 - accuracy: 0.8827 - auc: 0.9501 - precision: 0.8981 - precision_m: 0.8999 - recall: 0.8634 - recall_m: 0.8664 - f1_m: 0.8817
+ 89/209 [===========>..................] - ETA: 14s - loss: 0.2811 - accuracy: 0.8829 - auc: 0.9505 - precision: 0.8985 - precision_m: 0.9003 - recall: 0.8637 - recall_m: 0.8666 - f1_m: 0.8821
+ 90/209 [===========>..................] - ETA: 14s - loss: 0.2805 - accuracy: 0.8832 - auc: 0.9507 - precision: 0.8986 - precision_m: 0.9004 - recall: 0.8641 - recall_m: 0.8670 - f1_m: 0.8823
+ 91/209 [============>.................] - ETA: 14s - loss: 0.2806 - accuracy: 0.8833 - auc: 0.9506 - precision: 0.8985 - precision_m: 0.9003 - recall: 0.8644 - recall_m: 0.8673 - f1_m: 0.8824
+ 92/209 [============>.................] - ETA: 13s - loss: 0.2814 - accuracy: 0.8831 - auc: 0.9504 - precision: 0.8982 - precision_m: 0.9000 - recall: 0.8643 - recall_m: 0.8672 - f1_m: 0.8822
+ 93/209 [============>.................] - ETA: 13s - loss: 0.2816 - accuracy: 0.8829 - auc: 0.9503 - precision: 0.8975 - precision_m: 0.8993 - recall: 0.8648 - recall_m: 0.8676 - f1_m: 0.8821
+ 94/209 [============>.................] - ETA: 13s - loss: 0.2813 - accuracy: 0.8830 - auc: 0.9503 - precision: 0.8977 - precision_m: 0.8995 - recall: 0.8647 - recall_m: 0.8675 - f1_m: 0.8822
+ 95/209 [============>.................] - ETA: 13s - loss: 0.2814 - accuracy: 0.8826 - auc: 0.9503 - precision: 0.8971 - precision_m: 0.8989 - recall: 0.8645 - recall_m: 0.8673 - f1_m: 0.8817
+ 96/209 [============>.................] - ETA: 13s - loss: 0.2814 - accuracy: 0.8826 - auc: 0.9503 - precision: 0.8969 - precision_m: 0.8986 - recall: 0.8645 - recall_m: 0.8672 - f1_m: 0.8816
+ 97/209 [============>.................] - ETA: 13s - loss: 0.2811 - accuracy: 0.8827 - auc: 0.9504 - precision: 0.8972 - precision_m: 0.8989 - recall: 0.8642 - recall_m: 0.8669 - f1_m: 0.8816
+ 98/209 [=============>................] - ETA: 13s - loss: 0.2807 - accuracy: 0.8828 - auc: 0.9506 - precision: 0.8972 - precision_m: 0.8989 - recall: 0.8644 - recall_m: 0.8671 - f1_m: 0.8817
+ 99/209 [=============>................] - ETA: 13s - loss: 0.2812 - accuracy: 0.8826 - auc: 0.9504 - precision: 0.8978 - precision_m: 0.8995 - recall: 0.8636 - recall_m: 0.8664 - f1_m: 0.8816
+100/209 [=============>................] - ETA: 12s - loss: 0.2809 - accuracy: 0.8828 - auc: 0.9505 - precision: 0.8975 - precision_m: 0.8992 - recall: 0.8641 - recall_m: 0.8669 - f1_m: 0.8817
+101/209 [=============>................] - ETA: 12s - loss: 0.2806 - accuracy: 0.8828 - auc: 0.9506 - precision: 0.8975 - precision_m: 0.8992 - recall: 0.8644 - recall_m: 0.8671 - f1_m: 0.8818
+102/209 [=============>................] - ETA: 12s - loss: 0.2801 - accuracy: 0.8830 - auc: 0.9507 - precision: 0.8974 - precision_m: 0.8991 - recall: 0.8648 - recall_m: 0.8675 - f1_m: 0.8820
+103/209 [=============>................] - ETA: 12s - loss: 0.2801 - accuracy: 0.8829 - auc: 0.9507 - precision: 0.8970 - precision_m: 0.8986 - recall: 0.8650 - recall_m: 0.8677 - f1_m: 0.8818
+104/209 [=============>................] - ETA: 12s - loss: 0.2803 - accuracy: 0.8831 - auc: 0.9506 - precision: 0.8969 - precision_m: 0.8985 - recall: 0.8653 - recall_m: 0.8680 - f1_m: 0.8819
+105/209 [==============>...............] - ETA: 12s - loss: 0.2808 - accuracy: 0.8829 - auc: 0.9504 - precision: 0.8972 - precision_m: 0.8988 - recall: 0.8650 - recall_m: 0.8676 - f1_m: 0.8819
+106/209 [==============>...............] - ETA: 12s - loss: 0.2802 - accuracy: 0.8831 - auc: 0.9506 - precision: 0.8974 - precision_m: 0.8989 - recall: 0.8652 - recall_m: 0.8679 - f1_m: 0.8821
+107/209 [==============>...............] - ETA: 12s - loss: 0.2804 - accuracy: 0.8831 - auc: 0.9505 - precision: 0.8972 - precision_m: 0.8988 - recall: 0.8655 - recall_m: 0.8681 - f1_m: 0.8822
+108/209 [==============>...............] - ETA: 12s - loss: 0.2806 - accuracy: 0.8831 - auc: 0.9505 - precision: 0.8975 - precision_m: 0.8991 - recall: 0.8651 - recall_m: 0.8678 - f1_m: 0.8821
+109/209 [==============>...............] - ETA: 11s - loss: 0.2807 - accuracy: 0.8830 - auc: 0.9505 - precision: 0.8971 - precision_m: 0.8986 - recall: 0.8651 - recall_m: 0.8677 - f1_m: 0.8819
+110/209 [==============>...............] - ETA: 11s - loss: 0.2809 - accuracy: 0.8829 - auc: 0.9504 - precision: 0.8968 - precision_m: 0.8984 - recall: 0.8652 - recall_m: 0.8677 - f1_m: 0.8818
+111/209 [==============>...............] - ETA: 11s - loss: 0.2812 - accuracy: 0.8827 - auc: 0.9503 - precision: 0.8970 - precision_m: 0.8985 - recall: 0.8646 - recall_m: 0.8672 - f1_m: 0.8815
+112/209 [===============>..............] - ETA: 11s - loss: 0.2811 - accuracy: 0.8829 - auc: 0.9503 - precision: 0.8979 - precision_m: 0.8994 - recall: 0.8643 - recall_m: 0.8669 - f1_m: 0.8818
+113/209 [===============>..............] - ETA: 11s - loss: 0.2820 - accuracy: 0.8824 - auc: 0.9500 - precision: 0.8972 - precision_m: 0.8987 - recall: 0.8640 - recall_m: 0.8665 - f1_m: 0.8813
+114/209 [===============>..............] - ETA: 11s - loss: 0.2827 - accuracy: 0.8821 - auc: 0.9497 - precision: 0.8970 - precision_m: 0.8985 - recall: 0.8639 - recall_m: 0.8665 - f1_m: 0.8811
+115/209 [===============>..............] - ETA: 11s - loss: 0.2825 - accuracy: 0.8824 - auc: 0.9498 - precision: 0.8973 - precision_m: 0.8987 - recall: 0.8644 - recall_m: 0.8669 - f1_m: 0.8815
+116/209 [===============>..............] - ETA: 11s - loss: 0.2823 - accuracy: 0.8826 - auc: 0.9499 - precision: 0.8974 - precision_m: 0.8988 - recall: 0.8647 - recall_m: 0.8671 - f1_m: 0.8817
+117/209 [===============>..............] - ETA: 10s - loss: 0.2828 - accuracy: 0.8823 - auc: 0.9497 - precision: 0.8978 - precision_m: 0.8992 - recall: 0.8641 - recall_m: 0.8666 - f1_m: 0.8815
+118/209 [===============>..............] - ETA: 10s - loss: 0.2822 - accuracy: 0.8829 - auc: 0.9499 - precision: 0.8983 - precision_m: 0.8996 - recall: 0.8649 - recall_m: 0.8673 - f1_m: 0.8822
+119/209 [================>.............] - ETA: 10s - loss: 0.2820 - accuracy: 0.8832 - auc: 0.9499 - precision: 0.8986 - precision_m: 0.9000 - recall: 0.8652 - recall_m: 0.8676 - f1_m: 0.8825
+120/209 [================>.............] - ETA: 10s - loss: 0.2834 - accuracy: 0.8825 - auc: 0.9495 - precision: 0.8980 - precision_m: 0.8994 - recall: 0.8645 - recall_m: 0.8670 - f1_m: 0.8819
+121/209 [================>.............] - ETA: 10s - loss: 0.2833 - accuracy: 0.8827 - auc: 0.9495 - precision: 0.8981 - precision_m: 0.8994 - recall: 0.8649 - recall_m: 0.8673 - f1_m: 0.8821
+122/209 [================>.............] - ETA: 10s - loss: 0.2834 - accuracy: 0.8828 - auc: 0.9494 - precision: 0.8978 - precision_m: 0.8991 - recall: 0.8653 - recall_m: 0.8677 - f1_m: 0.8821
+123/209 [================>.............] - ETA: 10s - loss: 0.2838 - accuracy: 0.8826 - auc: 0.9493 - precision: 0.8974 - precision_m: 0.8987 - recall: 0.8654 - recall_m: 0.8678 - f1_m: 0.8819
+124/209 [================>.............] - ETA: 10s - loss: 0.2836 - accuracy: 0.8827 - auc: 0.9493 - precision: 0.8977 - precision_m: 0.8991 - recall: 0.8652 - recall_m: 0.8676 - f1_m: 0.8820
+125/209 [================>.............] - ETA: 10s - loss: 0.2834 - accuracy: 0.8828 - auc: 0.9494 - precision: 0.8979 - precision_m: 0.8993 - recall: 0.8652 - recall_m: 0.8676 - f1_m: 0.8821
+126/209 [=================>............] - ETA: 9s - loss: 0.2837 - accuracy: 0.8826 - auc: 0.9493 - precision: 0.8981 - precision_m: 0.8994 - recall: 0.8650 - recall_m: 0.8674 - f1_m: 0.8821 
+127/209 [=================>............] - ETA: 9s - loss: 0.2839 - accuracy: 0.8823 - auc: 0.9492 - precision: 0.8972 - precision_m: 0.8986 - recall: 0.8654 - recall_m: 0.8678 - f1_m: 0.8818
+128/209 [=================>............] - ETA: 9s - loss: 0.2838 - accuracy: 0.8822 - auc: 0.9492 - precision: 0.8973 - precision_m: 0.8987 - recall: 0.8650 - recall_m: 0.8674 - f1_m: 0.8817
+129/209 [=================>............] - ETA: 9s - loss: 0.2837 - accuracy: 0.8822 - auc: 0.9493 - precision: 0.8971 - precision_m: 0.8985 - recall: 0.8650 - recall_m: 0.8674 - f1_m: 0.8816
+130/209 [=================>............] - ETA: 9s - loss: 0.2838 - accuracy: 0.8821 - auc: 0.9492 - precision: 0.8967 - precision_m: 0.8981 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8815
+131/209 [=================>............] - ETA: 9s - loss: 0.2847 - accuracy: 0.8817 - auc: 0.9490 - precision: 0.8960 - precision_m: 0.8973 - recall: 0.8651 - recall_m: 0.8675 - f1_m: 0.8811
+132/209 [=================>............] - ETA: 9s - loss: 0.2849 - accuracy: 0.8816 - auc: 0.9489 - precision: 0.8963 - precision_m: 0.8976 - recall: 0.8647 - recall_m: 0.8670 - f1_m: 0.8810
+133/209 [==================>...........] - ETA: 9s - loss: 0.2850 - accuracy: 0.8816 - auc: 0.9489 - precision: 0.8960 - precision_m: 0.8973 - recall: 0.8650 - recall_m: 0.8673 - f1_m: 0.8810
+134/209 [==================>...........] - ETA: 8s - loss: 0.2843 - accuracy: 0.8821 - auc: 0.9491 - precision: 0.8964 - precision_m: 0.8977 - recall: 0.8653 - recall_m: 0.8677 - f1_m: 0.8814
+135/209 [==================>...........] - ETA: 8s - loss: 0.2846 - accuracy: 0.8818 - auc: 0.9490 - precision: 0.8957 - precision_m: 0.8970 - recall: 0.8654 - recall_m: 0.8677 - f1_m: 0.8810
+136/209 [==================>...........] - ETA: 8s - loss: 0.2845 - accuracy: 0.8818 - auc: 0.9490 - precision: 0.8960 - precision_m: 0.8973 - recall: 0.8649 - recall_m: 0.8672 - f1_m: 0.8809
+137/209 [==================>...........] - ETA: 8s - loss: 0.2844 - accuracy: 0.8818 - auc: 0.9491 - precision: 0.8958 - precision_m: 0.8971 - recall: 0.8652 - recall_m: 0.8675 - f1_m: 0.8810
+138/209 [==================>...........] - ETA: 8s - loss: 0.2841 - accuracy: 0.8819 - auc: 0.9492 - precision: 0.8956 - precision_m: 0.8969 - recall: 0.8654 - recall_m: 0.8677 - f1_m: 0.8810
+139/209 [==================>...........] - ETA: 8s - loss: 0.2844 - accuracy: 0.8818 - auc: 0.9490 - precision: 0.8957 - precision_m: 0.8971 - recall: 0.8650 - recall_m: 0.8672 - f1_m: 0.8808
+140/209 [===================>..........] - ETA: 8s - loss: 0.2839 - accuracy: 0.8820 - auc: 0.9492 - precision: 0.8957 - precision_m: 0.8971 - recall: 0.8652 - recall_m: 0.8675 - f1_m: 0.8809
+141/209 [===================>..........] - ETA: 8s - loss: 0.2839 - accuracy: 0.8820 - auc: 0.9493 - precision: 0.8957 - precision_m: 0.8970 - recall: 0.8651 - recall_m: 0.8673 - f1_m: 0.8808
+142/209 [===================>..........] - ETA: 8s - loss: 0.2835 - accuracy: 0.8820 - auc: 0.9494 - precision: 0.8954 - precision_m: 0.8967 - recall: 0.8653 - recall_m: 0.8675 - f1_m: 0.8808
+143/209 [===================>..........] - ETA: 7s - loss: 0.2836 - accuracy: 0.8821 - auc: 0.9494 - precision: 0.8956 - precision_m: 0.8969 - recall: 0.8654 - recall_m: 0.8676 - f1_m: 0.8809
+144/209 [===================>..........] - ETA: 7s - loss: 0.2838 - accuracy: 0.8820 - auc: 0.9493 - precision: 0.8955 - precision_m: 0.8968 - recall: 0.8652 - recall_m: 0.8674 - f1_m: 0.8808
+145/209 [===================>..........] - ETA: 7s - loss: 0.2837 - accuracy: 0.8821 - auc: 0.9493 - precision: 0.8955 - precision_m: 0.8968 - recall: 0.8654 - recall_m: 0.8676 - f1_m: 0.8808
+146/209 [===================>..........] - ETA: 7s - loss: 0.2840 - accuracy: 0.8818 - auc: 0.9492 - precision: 0.8956 - precision_m: 0.8968 - recall: 0.8649 - recall_m: 0.8672 - f1_m: 0.8807
+147/209 [====================>.........] - ETA: 7s - loss: 0.2844 - accuracy: 0.8818 - auc: 0.9491 - precision: 0.8956 - precision_m: 0.8969 - recall: 0.8650 - recall_m: 0.8672 - f1_m: 0.8807
+148/209 [====================>.........] - ETA: 7s - loss: 0.2845 - accuracy: 0.8817 - auc: 0.9490 - precision: 0.8958 - precision_m: 0.8970 - recall: 0.8646 - recall_m: 0.8669 - f1_m: 0.8806
+149/209 [====================>.........] - ETA: 7s - loss: 0.2845 - accuracy: 0.8819 - auc: 0.9491 - precision: 0.8959 - precision_m: 0.8972 - recall: 0.8649 - recall_m: 0.8671 - f1_m: 0.8808
+150/209 [====================>.........] - ETA: 7s - loss: 0.2840 - accuracy: 0.8820 - auc: 0.9492 - precision: 0.8961 - precision_m: 0.8973 - recall: 0.8649 - recall_m: 0.8671 - f1_m: 0.8809
+151/209 [====================>.........] - ETA: 6s - loss: 0.2839 - accuracy: 0.8820 - auc: 0.9493 - precision: 0.8959 - precision_m: 0.8972 - recall: 0.8648 - recall_m: 0.8670 - f1_m: 0.8808
+152/209 [====================>.........] - ETA: 6s - loss: 0.2835 - accuracy: 0.8824 - auc: 0.9495 - precision: 0.8958 - precision_m: 0.8970 - recall: 0.8654 - recall_m: 0.8678 - f1_m: 0.8811
+153/209 [====================>.........] - ETA: 6s - loss: 0.2835 - accuracy: 0.8823 - auc: 0.9495 - precision: 0.8960 - precision_m: 0.8972 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8811
+154/209 [=====================>........] - ETA: 6s - loss: 0.2840 - accuracy: 0.8821 - auc: 0.9493 - precision: 0.8965 - precision_m: 0.8977 - recall: 0.8646 - recall_m: 0.8671 - f1_m: 0.8810
+155/209 [=====================>........] - ETA: 6s - loss: 0.2837 - accuracy: 0.8821 - auc: 0.9495 - precision: 0.8963 - precision_m: 0.8975 - recall: 0.8649 - recall_m: 0.8673 - f1_m: 0.8810
+156/209 [=====================>........] - ETA: 6s - loss: 0.2839 - accuracy: 0.8818 - auc: 0.9494 - precision: 0.8957 - precision_m: 0.8969 - recall: 0.8649 - recall_m: 0.8673 - f1_m: 0.8807
+157/209 [=====================>........] - ETA: 6s - loss: 0.2838 - accuracy: 0.8819 - auc: 0.9495 - precision: 0.8954 - precision_m: 0.8967 - recall: 0.8654 - recall_m: 0.8678 - f1_m: 0.8808
+158/209 [=====================>........] - ETA: 6s - loss: 0.2844 - accuracy: 0.8818 - auc: 0.9492 - precision: 0.8958 - precision_m: 0.8971 - recall: 0.8648 - recall_m: 0.8673 - f1_m: 0.8807
+159/209 [=====================>........] - ETA: 5s - loss: 0.2843 - accuracy: 0.8818 - auc: 0.9493 - precision: 0.8961 - precision_m: 0.8973 - recall: 0.8646 - recall_m: 0.8671 - f1_m: 0.8808
+160/209 [=====================>........] - ETA: 5s - loss: 0.2842 - accuracy: 0.8819 - auc: 0.9493 - precision: 0.8958 - precision_m: 0.8971 - recall: 0.8651 - recall_m: 0.8675 - f1_m: 0.8809
+161/209 [======================>.......] - ETA: 5s - loss: 0.2841 - accuracy: 0.8820 - auc: 0.9494 - precision: 0.8962 - precision_m: 0.8974 - recall: 0.8651 - recall_m: 0.8675 - f1_m: 0.8810
+162/209 [======================>.......] - ETA: 5s - loss: 0.2846 - accuracy: 0.8817 - auc: 0.9492 - precision: 0.8954 - precision_m: 0.8967 - recall: 0.8652 - recall_m: 0.8676 - f1_m: 0.8807
+163/209 [======================>.......] - ETA: 5s - loss: 0.2844 - accuracy: 0.8817 - auc: 0.9493 - precision: 0.8956 - precision_m: 0.8968 - recall: 0.8652 - recall_m: 0.8676 - f1_m: 0.8808
+164/209 [======================>.......] - ETA: 5s - loss: 0.2842 - accuracy: 0.8816 - auc: 0.9493 - precision: 0.8953 - precision_m: 0.8966 - recall: 0.8653 - recall_m: 0.8677 - f1_m: 0.8807
+165/209 [======================>.......] - ETA: 5s - loss: 0.2847 - accuracy: 0.8813 - auc: 0.9491 - precision: 0.8952 - precision_m: 0.8964 - recall: 0.8650 - recall_m: 0.8674 - f1_m: 0.8805
+166/209 [======================>.......] - ETA: 5s - loss: 0.2852 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8951 - precision_m: 0.8963 - recall: 0.8643 - recall_m: 0.8667 - f1_m: 0.8801
+167/209 [======================>.......] - ETA: 5s - loss: 0.2852 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8944 - precision_m: 0.8956 - recall: 0.8646 - recall_m: 0.8671 - f1_m: 0.8799
+168/209 [=======================>......] - ETA: 4s - loss: 0.2854 - accuracy: 0.8810 - auc: 0.9488 - precision: 0.8946 - precision_m: 0.8958 - recall: 0.8645 - recall_m: 0.8670 - f1_m: 0.8799
+169/209 [=======================>......] - ETA: 4s - loss: 0.2853 - accuracy: 0.8810 - auc: 0.9488 - precision: 0.8949 - precision_m: 0.8961 - recall: 0.8644 - recall_m: 0.8669 - f1_m: 0.8800
+170/209 [=======================>......] - ETA: 4s - loss: 0.2854 - accuracy: 0.8810 - auc: 0.9488 - precision: 0.8946 - precision_m: 0.8958 - recall: 0.8648 - recall_m: 0.8673 - f1_m: 0.8800
+171/209 [=======================>......] - ETA: 4s - loss: 0.2861 - accuracy: 0.8808 - auc: 0.9486 - precision: 0.8944 - precision_m: 0.8956 - recall: 0.8647 - recall_m: 0.8672 - f1_m: 0.8799
+172/209 [=======================>......] - ETA: 4s - loss: 0.2861 - accuracy: 0.8808 - auc: 0.9486 - precision: 0.8947 - precision_m: 0.8958 - recall: 0.8645 - recall_m: 0.8670 - f1_m: 0.8799
+173/209 [=======================>......] - ETA: 4s - loss: 0.2864 - accuracy: 0.8805 - auc: 0.9485 - precision: 0.8943 - precision_m: 0.8955 - recall: 0.8642 - recall_m: 0.8666 - f1_m: 0.8796
+174/209 [=======================>......] - ETA: 4s - loss: 0.2862 - accuracy: 0.8807 - auc: 0.9486 - precision: 0.8945 - precision_m: 0.8957 - recall: 0.8643 - recall_m: 0.8668 - f1_m: 0.8797
+175/209 [========================>.....] - ETA: 4s - loss: 0.2860 - accuracy: 0.8807 - auc: 0.9487 - precision: 0.8946 - precision_m: 0.8958 - recall: 0.8643 - recall_m: 0.8668 - f1_m: 0.8798
+176/209 [========================>.....] - ETA: 3s - loss: 0.2856 - accuracy: 0.8808 - auc: 0.9488 - precision: 0.8946 - precision_m: 0.8958 - recall: 0.8646 - recall_m: 0.8670 - f1_m: 0.8799
+177/209 [========================>.....] - ETA: 3s - loss: 0.2853 - accuracy: 0.8808 - auc: 0.9489 - precision: 0.8945 - precision_m: 0.8956 - recall: 0.8646 - recall_m: 0.8670 - f1_m: 0.8799
+178/209 [========================>.....] - ETA: 3s - loss: 0.2851 - accuracy: 0.8808 - auc: 0.9490 - precision: 0.8942 - precision_m: 0.8953 - recall: 0.8649 - recall_m: 0.8674 - f1_m: 0.8798
+179/209 [========================>.....] - ETA: 3s - loss: 0.2846 - accuracy: 0.8811 - auc: 0.9492 - precision: 0.8943 - precision_m: 0.8954 - recall: 0.8652 - recall_m: 0.8676 - f1_m: 0.8801
+180/209 [========================>.....] - ETA: 3s - loss: 0.2849 - accuracy: 0.8810 - auc: 0.9491 - precision: 0.8945 - precision_m: 0.8956 - recall: 0.8649 - recall_m: 0.8673 - f1_m: 0.8800
+181/209 [========================>.....] - ETA: 3s - loss: 0.2847 - accuracy: 0.8811 - auc: 0.9492 - precision: 0.8944 - precision_m: 0.8955 - recall: 0.8653 - recall_m: 0.8677 - f1_m: 0.8801
+182/209 [=========================>....] - ETA: 3s - loss: 0.2845 - accuracy: 0.8812 - auc: 0.9492 - precision: 0.8946 - precision_m: 0.8958 - recall: 0.8651 - recall_m: 0.8676 - f1_m: 0.8802
+183/209 [=========================>....] - ETA: 3s - loss: 0.2845 - accuracy: 0.8813 - auc: 0.9493 - precision: 0.8947 - precision_m: 0.8958 - recall: 0.8653 - recall_m: 0.8677 - f1_m: 0.8803
+184/209 [=========================>....] - ETA: 3s - loss: 0.2845 - accuracy: 0.8812 - auc: 0.9493 - precision: 0.8944 - precision_m: 0.8956 - recall: 0.8654 - recall_m: 0.8678 - f1_m: 0.8802
+185/209 [=========================>....] - ETA: 2s - loss: 0.2848 - accuracy: 0.8811 - auc: 0.9492 - precision: 0.8943 - precision_m: 0.8955 - recall: 0.8653 - recall_m: 0.8677 - f1_m: 0.8801
+186/209 [=========================>....] - ETA: 2s - loss: 0.2854 - accuracy: 0.8809 - auc: 0.9490 - precision: 0.8940 - precision_m: 0.8951 - recall: 0.8650 - recall_m: 0.8673 - f1_m: 0.8797
+187/209 [=========================>....] - ETA: 2s - loss: 0.2855 - accuracy: 0.8808 - auc: 0.9489 - precision: 0.8936 - precision_m: 0.8947 - recall: 0.8650 - recall_m: 0.8674 - f1_m: 0.8796
+188/209 [=========================>....] - ETA: 2s - loss: 0.2851 - accuracy: 0.8811 - auc: 0.9491 - precision: 0.8940 - precision_m: 0.8951 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8799
+189/209 [==========================>...] - ETA: 2s - loss: 0.2856 - accuracy: 0.8810 - auc: 0.9489 - precision: 0.8936 - precision_m: 0.8947 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8797
+190/209 [==========================>...] - ETA: 2s - loss: 0.2854 - accuracy: 0.8810 - auc: 0.9490 - precision: 0.8938 - precision_m: 0.8949 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8798
+191/209 [==========================>...] - ETA: 2s - loss: 0.2854 - accuracy: 0.8811 - auc: 0.9490 - precision: 0.8942 - precision_m: 0.8953 - recall: 0.8651 - recall_m: 0.8674 - f1_m: 0.8798
+192/209 [==========================>...] - ETA: 2s - loss: 0.2856 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8942 - precision_m: 0.8953 - recall: 0.8648 - recall_m: 0.8671 - f1_m: 0.8797
+193/209 [==========================>...] - ETA: 1s - loss: 0.2853 - accuracy: 0.8811 - auc: 0.9490 - precision: 0.8943 - precision_m: 0.8954 - recall: 0.8651 - recall_m: 0.8674 - f1_m: 0.8799
+194/209 [==========================>...] - ETA: 1s - loss: 0.2857 - accuracy: 0.8811 - auc: 0.9489 - precision: 0.8945 - precision_m: 0.8956 - recall: 0.8650 - recall_m: 0.8673 - f1_m: 0.8799
+195/209 [==========================>...] - ETA: 1s - loss: 0.2855 - accuracy: 0.8812 - auc: 0.9490 - precision: 0.8943 - precision_m: 0.8954 - recall: 0.8652 - recall_m: 0.8675 - f1_m: 0.8800
+196/209 [===========================>..] - ETA: 1s - loss: 0.2855 - accuracy: 0.8809 - auc: 0.9490 - precision: 0.8939 - precision_m: 0.8950 - recall: 0.8651 - recall_m: 0.8674 - f1_m: 0.8797
+197/209 [===========================>..] - ETA: 1s - loss: 0.2858 - accuracy: 0.8810 - auc: 0.9489 - precision: 0.8943 - precision_m: 0.8954 - recall: 0.8649 - recall_m: 0.8672 - f1_m: 0.8798
+198/209 [===========================>..] - ETA: 1s - loss: 0.2854 - accuracy: 0.8810 - auc: 0.9490 - precision: 0.8942 - precision_m: 0.8952 - recall: 0.8650 - recall_m: 0.8673 - f1_m: 0.8798
+199/209 [===========================>..] - ETA: 1s - loss: 0.2860 - accuracy: 0.8807 - auc: 0.9489 - precision: 0.8938 - precision_m: 0.8949 - recall: 0.8648 - recall_m: 0.8670 - f1_m: 0.8795
+200/209 [===========================>..] - ETA: 1s - loss: 0.2860 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8935 - precision_m: 0.8945 - recall: 0.8652 - recall_m: 0.8675 - f1_m: 0.8795
+201/209 [===========================>..] - ETA: 0s - loss: 0.2860 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8937 - precision_m: 0.8947 - recall: 0.8652 - recall_m: 0.8675 - f1_m: 0.8796
+202/209 [===========================>..] - ETA: 0s - loss: 0.2855 - accuracy: 0.8812 - auc: 0.9491 - precision: 0.8941 - precision_m: 0.8951 - recall: 0.8653 - recall_m: 0.8675 - f1_m: 0.8798
+203/209 [============================>.] - ETA: 0s - loss: 0.2861 - accuracy: 0.8810 - auc: 0.9489 - precision: 0.8938 - precision_m: 0.8948 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8797
+204/209 [============================>.] - ETA: 0s - loss: 0.2858 - accuracy: 0.8812 - auc: 0.9490 - precision: 0.8941 - precision_m: 0.8951 - recall: 0.8654 - recall_m: 0.8676 - f1_m: 0.8799
+205/209 [============================>.] - ETA: 0s - loss: 0.2863 - accuracy: 0.8809 - auc: 0.9488 - precision: 0.8937 - precision_m: 0.8947 - recall: 0.8652 - recall_m: 0.8674 - f1_m: 0.8796
+206/209 [============================>.] - ETA: 0s - loss: 0.2864 - accuracy: 0.8807 - auc: 0.9487 - precision: 0.8935 - precision_m: 0.8944 - recall: 0.8649 - recall_m: 0.8671 - f1_m: 0.8793
+207/209 [============================>.] - ETA: 0s - loss: 0.2863 - accuracy: 0.8808 - auc: 0.9488 - precision: 0.8936 - precision_m: 0.8946 - recall: 0.8650 - recall_m: 0.8673 - f1_m: 0.8794
+208/209 [============================>.] - ETA: 0s - loss: 0.2860 - accuracy: 0.8810 - auc: 0.9489 - precision: 0.8933 - precision_m: 0.8943 - recall: 0.8655 - recall_m: 0.8678 - f1_m: 0.8795
+209/209 [==============================] - ETA: 0s - loss: 0.2860 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8933 - precision_m: 0.8943 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8794
+209/209 [==============================] - 28s 135ms/step - loss: 0.2860 - accuracy: 0.8809 - auc: 0.9489 - precision: 0.8933 - precision_m: 0.8943 - recall: 0.8653 - recall_m: 0.8676 - f1_m: 0.8794 - val_loss: 0.3019 - val_accuracy: 0.8785 - val_auc: 0.9528 - val_precision: 0.9331 - val_precision_m: 0.9328 - val_recall: 0.8150 - val_recall_m: 0.8156 - val_f1_m: 0.8693
+
+  1/209 [..............................] - ETA: 27s - loss: 0.2180 - accuracy: 0.9062 - auc: 0.9764 - precision: 0.9524 - precision_m: 0.9524 - recall: 0.8696 - recall_m: 0.8696 - f1_m: 0.9091
+  2/209 [..............................] - ETA: 25s - loss: 0.2135 - accuracy: 0.9141 - auc: 0.9762 - precision: 0.9606 - precision_m: 0.9606 - recall: 0.8777 - recall_m: 0.8776 - f1_m: 0.9172
+  3/209 [..............................] - ETA: 25s - loss: 0.2015 - accuracy: 0.9141 - auc: 0.9754 - precision: 0.9348 - precision_m: 0.9328 - recall: 0.8912 - recall_m: 0.8937 - f1_m: 0.9118
+  4/209 [..............................] - ETA: 25s - loss: 0.2321 - accuracy: 0.9062 - auc: 0.9654 - precision: 0.9253 - precision_m: 0.9233 - recall: 0.8814 - recall_m: 0.8828 - f1_m: 0.9018
+  5/209 [..............................] - ETA: 26s - loss: 0.2480 - accuracy: 0.8938 - auc: 0.9625 - precision: 0.9331 - precision_m: 0.9317 - recall: 0.8532 - recall_m: 0.8576 - f1_m: 0.8911
+  6/209 [..............................] - ETA: 26s - loss: 0.2564 - accuracy: 0.8854 - auc: 0.9595 - precision: 0.9174 - precision_m: 0.9171 - recall: 0.8517 - recall_m: 0.8553 - f1_m: 0.8832
+  7/209 [>.............................] - ETA: 27s - loss: 0.2502 - accuracy: 0.8884 - auc: 0.9611 - precision: 0.9182 - precision_m: 0.9179 - recall: 0.8581 - recall_m: 0.8610 - f1_m: 0.8869
+  8/209 [>.............................] - ETA: 26s - loss: 0.2530 - accuracy: 0.8828 - auc: 0.9603 - precision: 0.9111 - precision_m: 0.9114 - recall: 0.8558 - recall_m: 0.8585 - f1_m: 0.8827
+  9/209 [>.............................] - ETA: 27s - loss: 0.2537 - accuracy: 0.8819 - auc: 0.9599 - precision: 0.9101 - precision_m: 0.9103 - recall: 0.8547 - recall_m: 0.8571 - f1_m: 0.8816
+ 10/209 [>.............................] - ETA: 26s - loss: 0.2559 - accuracy: 0.8836 - auc: 0.9591 - precision: 0.9092 - precision_m: 0.9094 - recall: 0.8578 - recall_m: 0.8601 - f1_m: 0.8829
+ 11/209 [>.............................] - ETA: 26s - loss: 0.2582 - accuracy: 0.8828 - auc: 0.9580 - precision: 0.9010 - precision_m: 0.9010 - recall: 0.8616 - recall_m: 0.8644 - f1_m: 0.8808
+ 12/209 [>.............................] - ETA: 25s - loss: 0.2543 - accuracy: 0.8874 - auc: 0.9593 - precision: 0.9062 - precision_m: 0.9064 - recall: 0.8651 - recall_m: 0.8678 - f1_m: 0.8852
+ 13/209 [>.............................] - ETA: 25s - loss: 0.2613 - accuracy: 0.8846 - auc: 0.9569 - precision: 0.9068 - precision_m: 0.9070 - recall: 0.8592 - recall_m: 0.8619 - f1_m: 0.8824
+ 14/209 [=>............................] - ETA: 25s - loss: 0.2666 - accuracy: 0.8811 - auc: 0.9551 - precision: 0.9027 - precision_m: 0.9027 - recall: 0.8556 - recall_m: 0.8579 - f1_m: 0.8784
+ 15/209 [=>............................] - ETA: 24s - loss: 0.2673 - accuracy: 0.8802 - auc: 0.9550 - precision: 0.9035 - precision_m: 0.9036 - recall: 0.8530 - recall_m: 0.8553 - f1_m: 0.8774
+ 16/209 [=>............................] - ETA: 24s - loss: 0.2676 - accuracy: 0.8799 - auc: 0.9549 - precision: 0.9042 - precision_m: 0.9043 - recall: 0.8516 - recall_m: 0.8537 - f1_m: 0.8770
+ 17/209 [=>............................] - ETA: 24s - loss: 0.2655 - accuracy: 0.8810 - auc: 0.9557 - precision: 0.9037 - precision_m: 0.9038 - recall: 0.8551 - recall_m: 0.8570 - f1_m: 0.8785
+ 18/209 [=>............................] - ETA: 24s - loss: 0.2639 - accuracy: 0.8815 - auc: 0.9562 - precision: 0.9043 - precision_m: 0.9044 - recall: 0.8552 - recall_m: 0.8570 - f1_m: 0.8789
+ 19/209 [=>............................] - ETA: 23s - loss: 0.2600 - accuracy: 0.8828 - auc: 0.9575 - precision: 0.9033 - precision_m: 0.9034 - recall: 0.8581 - recall_m: 0.8601 - f1_m: 0.8800
+ 20/209 [=>............................] - ETA: 23s - loss: 0.2613 - accuracy: 0.8828 - auc: 0.9569 - precision: 0.9052 - precision_m: 0.9052 - recall: 0.8575 - recall_m: 0.8594 - f1_m: 0.8805
+ 21/209 [==>...........................] - ETA: 23s - loss: 0.2631 - accuracy: 0.8817 - auc: 0.9560 - precision: 0.9013 - precision_m: 0.9015 - recall: 0.8586 - recall_m: 0.8606 - f1_m: 0.8793
+ 22/209 [==>...........................] - ETA: 23s - loss: 0.2608 - accuracy: 0.8832 - auc: 0.9568 - precision: 0.9028 - precision_m: 0.9030 - recall: 0.8601 - recall_m: 0.8619 - f1_m: 0.8808
+ 23/209 [==>...........................] - ETA: 23s - loss: 0.2575 - accuracy: 0.8845 - auc: 0.9578 - precision: 0.9036 - precision_m: 0.9038 - recall: 0.8621 - recall_m: 0.8639 - f1_m: 0.8822
+ 24/209 [==>...........................] - ETA: 23s - loss: 0.2604 - accuracy: 0.8844 - auc: 0.9573 - precision: 0.9038 - precision_m: 0.9039 - recall: 0.8623 - recall_m: 0.8640 - f1_m: 0.8824
+ 25/209 [==>...........................] - ETA: 22s - loss: 0.2578 - accuracy: 0.8866 - auc: 0.9581 - precision: 0.9051 - precision_m: 0.9052 - recall: 0.8652 - recall_m: 0.8669 - f1_m: 0.8846
+ 26/209 [==>...........................] - ETA: 22s - loss: 0.2598 - accuracy: 0.8861 - auc: 0.9574 - precision: 0.9062 - precision_m: 0.9064 - recall: 0.8636 - recall_m: 0.8653 - f1_m: 0.8843
+ 27/209 [==>...........................] - ETA: 22s - loss: 0.2610 - accuracy: 0.8874 - auc: 0.9573 - precision: 0.9070 - precision_m: 0.9070 - recall: 0.8659 - recall_m: 0.8675 - f1_m: 0.8858
+ 28/209 [===>..........................] - ETA: 22s - loss: 0.2618 - accuracy: 0.8870 - auc: 0.9570 - precision: 0.9057 - precision_m: 0.9057 - recall: 0.8661 - recall_m: 0.8676 - f1_m: 0.8852
+ 29/209 [===>..........................] - ETA: 22s - loss: 0.2599 - accuracy: 0.8877 - auc: 0.9577 - precision: 0.9060 - precision_m: 0.9061 - recall: 0.8668 - recall_m: 0.8683 - f1_m: 0.8858
+ 30/209 [===>..........................] - ETA: 22s - loss: 0.2584 - accuracy: 0.8883 - auc: 0.9583 - precision: 0.9085 - precision_m: 0.9087 - recall: 0.8658 - recall_m: 0.8674 - f1_m: 0.8865
+ 31/209 [===>..........................] - ETA: 21s - loss: 0.2590 - accuracy: 0.8871 - auc: 0.9580 - precision: 0.9052 - precision_m: 0.9055 - recall: 0.8662 - recall_m: 0.8678 - f1_m: 0.8851
+ 32/209 [===>..........................] - ETA: 21s - loss: 0.2584 - accuracy: 0.8872 - auc: 0.9582 - precision: 0.9048 - precision_m: 0.9050 - recall: 0.8670 - recall_m: 0.8685 - f1_m: 0.8852
+ 33/209 [===>..........................] - ETA: 21s - loss: 0.2608 - accuracy: 0.8871 - auc: 0.9576 - precision: 0.9034 - precision_m: 0.9037 - recall: 0.8680 - recall_m: 0.8695 - f1_m: 0.8851
+ 34/209 [===>..........................] - ETA: 21s - loss: 0.2600 - accuracy: 0.8876 - auc: 0.9578 - precision: 0.9042 - precision_m: 0.9046 - recall: 0.8683 - recall_m: 0.8697 - f1_m: 0.8857
+ 35/209 [====>.........................] - ETA: 21s - loss: 0.2592 - accuracy: 0.8886 - auc: 0.9580 - precision: 0.9061 - precision_m: 0.9064 - recall: 0.8687 - recall_m: 0.8701 - f1_m: 0.8867
+ 36/209 [====>.........................] - ETA: 21s - loss: 0.2577 - accuracy: 0.8895 - auc: 0.9586 - precision: 0.9070 - precision_m: 0.9073 - recall: 0.8699 - recall_m: 0.8712 - f1_m: 0.8878
+ 37/209 [====>.........................] - ETA: 21s - loss: 0.2585 - accuracy: 0.8889 - auc: 0.9583 - precision: 0.9064 - precision_m: 0.9067 - recall: 0.8692 - recall_m: 0.8704 - f1_m: 0.8871
+ 38/209 [====>.........................] - ETA: 21s - loss: 0.2581 - accuracy: 0.8890 - auc: 0.9585 - precision: 0.9056 - precision_m: 0.9059 - recall: 0.8701 - recall_m: 0.8713 - f1_m: 0.8872
+ 39/209 [====>.........................] - ETA: 20s - loss: 0.2592 - accuracy: 0.8888 - auc: 0.9581 - precision: 0.9043 - precision_m: 0.9045 - recall: 0.8707 - recall_m: 0.8720 - f1_m: 0.8869
+ 40/209 [====>.........................] - ETA: 20s - loss: 0.2601 - accuracy: 0.8887 - auc: 0.9577 - precision: 0.9046 - precision_m: 0.9049 - recall: 0.8702 - recall_m: 0.8715 - f1_m: 0.8868
+ 41/209 [====>.........................] - ETA: 20s - loss: 0.2597 - accuracy: 0.8891 - auc: 0.9578 - precision: 0.9044 - precision_m: 0.9047 - recall: 0.8715 - recall_m: 0.8727 - f1_m: 0.8874
+ 42/209 [=====>........................] - ETA: 20s - loss: 0.2593 - accuracy: 0.8899 - auc: 0.9579 - precision: 0.9048 - precision_m: 0.9051 - recall: 0.8727 - recall_m: 0.8739 - f1_m: 0.8882
+ 43/209 [=====>........................] - ETA: 20s - loss: 0.2598 - accuracy: 0.8903 - auc: 0.9578 - precision: 0.9057 - precision_m: 0.9058 - recall: 0.8730 - recall_m: 0.8741 - f1_m: 0.8887
+ 44/209 [=====>........................] - ETA: 20s - loss: 0.2616 - accuracy: 0.8894 - auc: 0.9574 - precision: 0.9061 - precision_m: 0.9062 - recall: 0.8714 - recall_m: 0.8727 - f1_m: 0.8881
+ 45/209 [=====>........................] - ETA: 20s - loss: 0.2620 - accuracy: 0.8892 - auc: 0.9572 - precision: 0.9052 - precision_m: 0.9054 - recall: 0.8722 - recall_m: 0.8735 - f1_m: 0.8881
+ 46/209 [=====>........................] - ETA: 19s - loss: 0.2643 - accuracy: 0.8884 - auc: 0.9564 - precision: 0.9035 - precision_m: 0.9038 - recall: 0.8722 - recall_m: 0.8734 - f1_m: 0.8873
+ 47/209 [=====>........................] - ETA: 19s - loss: 0.2649 - accuracy: 0.8881 - auc: 0.9562 - precision: 0.9025 - precision_m: 0.9028 - recall: 0.8724 - recall_m: 0.8737 - f1_m: 0.8869
+ 48/209 [=====>........................] - ETA: 19s - loss: 0.2645 - accuracy: 0.8892 - auc: 0.9563 - precision: 0.9031 - precision_m: 0.9034 - recall: 0.8737 - recall_m: 0.8749 - f1_m: 0.8879
+ 49/209 [======>.......................] - ETA: 19s - loss: 0.2658 - accuracy: 0.8890 - auc: 0.9559 - precision: 0.9042 - precision_m: 0.9045 - recall: 0.8728 - recall_m: 0.8741 - f1_m: 0.8880
+ 50/209 [======>.......................] - ETA: 19s - loss: 0.2655 - accuracy: 0.8895 - auc: 0.9559 - precision: 0.9048 - precision_m: 0.9051 - recall: 0.8731 - recall_m: 0.8745 - f1_m: 0.8885
+ 51/209 [======>.......................] - ETA: 19s - loss: 0.2673 - accuracy: 0.8894 - auc: 0.9556 - precision: 0.9043 - precision_m: 0.9045 - recall: 0.8729 - recall_m: 0.8742 - f1_m: 0.8881
+ 52/209 [======>.......................] - ETA: 19s - loss: 0.2672 - accuracy: 0.8890 - auc: 0.9556 - precision: 0.9033 - precision_m: 0.9036 - recall: 0.8729 - recall_m: 0.8741 - f1_m: 0.8876
+ 53/209 [======>.......................] - ETA: 19s - loss: 0.2671 - accuracy: 0.8892 - auc: 0.9556 - precision: 0.9038 - precision_m: 0.9039 - recall: 0.8731 - recall_m: 0.8743 - f1_m: 0.8879
+ 54/209 [======>.......................] - ETA: 19s - loss: 0.2664 - accuracy: 0.8898 - auc: 0.9559 - precision: 0.9043 - precision_m: 0.9045 - recall: 0.8737 - recall_m: 0.8749 - f1_m: 0.8885
+ 55/209 [======>.......................] - ETA: 18s - loss: 0.2668 - accuracy: 0.8891 - auc: 0.9557 - precision: 0.9032 - precision_m: 0.9033 - recall: 0.8733 - recall_m: 0.8745 - f1_m: 0.8877
+ 56/209 [=======>......................] - ETA: 18s - loss: 0.2677 - accuracy: 0.8891 - auc: 0.9554 - precision: 0.9037 - precision_m: 0.9039 - recall: 0.8729 - recall_m: 0.8741 - f1_m: 0.8878
+ 57/209 [=======>......................] - ETA: 18s - loss: 0.2673 - accuracy: 0.8894 - auc: 0.9555 - precision: 0.9044 - precision_m: 0.9045 - recall: 0.8732 - recall_m: 0.8743 - f1_m: 0.8882
+ 58/209 [=======>......................] - ETA: 18s - loss: 0.2657 - accuracy: 0.8905 - auc: 0.9559 - precision: 0.9048 - precision_m: 0.9050 - recall: 0.8746 - recall_m: 0.8758 - f1_m: 0.8892
+ 59/209 [=======>......................] - ETA: 18s - loss: 0.2654 - accuracy: 0.8906 - auc: 0.9560 - precision: 0.9036 - precision_m: 0.9037 - recall: 0.8755 - recall_m: 0.8769 - f1_m: 0.8891
+ 60/209 [=======>......................] - ETA: 18s - loss: 0.2643 - accuracy: 0.8910 - auc: 0.9564 - precision: 0.9040 - precision_m: 0.9041 - recall: 0.8756 - recall_m: 0.8770 - f1_m: 0.8894
+ 61/209 [=======>......................] - ETA: 18s - loss: 0.2648 - accuracy: 0.8909 - auc: 0.9561 - precision: 0.9037 - precision_m: 0.9038 - recall: 0.8755 - recall_m: 0.8769 - f1_m: 0.8891
+ 62/209 [=======>......................] - ETA: 18s - loss: 0.2652 - accuracy: 0.8906 - auc: 0.9559 - precision: 0.9037 - precision_m: 0.9038 - recall: 0.8746 - recall_m: 0.8759 - f1_m: 0.8887
+ 63/209 [========>.....................] - ETA: 17s - loss: 0.2639 - accuracy: 0.8911 - auc: 0.9563 - precision: 0.9039 - precision_m: 0.9041 - recall: 0.8752 - recall_m: 0.8766 - f1_m: 0.8891
+ 64/209 [========>.....................] - ETA: 17s - loss: 0.2642 - accuracy: 0.8914 - auc: 0.9562 - precision: 0.9046 - precision_m: 0.9047 - recall: 0.8750 - recall_m: 0.8763 - f1_m: 0.8893
+ 65/209 [========>.....................] - ETA: 17s - loss: 0.2646 - accuracy: 0.8915 - auc: 0.9560 - precision: 0.9049 - precision_m: 0.9051 - recall: 0.8747 - recall_m: 0.8760 - f1_m: 0.8893
+ 66/209 [========>.....................] - ETA: 17s - loss: 0.2656 - accuracy: 0.8912 - auc: 0.9559 - precision: 0.9050 - precision_m: 0.9052 - recall: 0.8743 - recall_m: 0.8757 - f1_m: 0.8892
+ 67/209 [========>.....................] - ETA: 17s - loss: 0.2662 - accuracy: 0.8911 - auc: 0.9556 - precision: 0.9057 - precision_m: 0.9059 - recall: 0.8736 - recall_m: 0.8750 - f1_m: 0.8892
+ 68/209 [========>.....................] - ETA: 17s - loss: 0.2657 - accuracy: 0.8913 - auc: 0.9558 - precision: 0.9061 - precision_m: 0.9063 - recall: 0.8737 - recall_m: 0.8750 - f1_m: 0.8894
+ 69/209 [========>.....................] - ETA: 17s - loss: 0.2667 - accuracy: 0.8909 - auc: 0.9554 - precision: 0.9068 - precision_m: 0.9069 - recall: 0.8724 - recall_m: 0.8739 - f1_m: 0.8891
+ 70/209 [=========>....................] - ETA: 17s - loss: 0.2671 - accuracy: 0.8908 - auc: 0.9553 - precision: 0.9063 - precision_m: 0.9065 - recall: 0.8728 - recall_m: 0.8743 - f1_m: 0.8891
+ 71/209 [=========>....................] - ETA: 16s - loss: 0.2671 - accuracy: 0.8905 - auc: 0.9552 - precision: 0.9045 - precision_m: 0.9046 - recall: 0.8733 - recall_m: 0.8749 - f1_m: 0.8884
+ 72/209 [=========>....................] - ETA: 16s - loss: 0.2671 - accuracy: 0.8906 - auc: 0.9552 - precision: 0.9053 - precision_m: 0.9054 - recall: 0.8727 - recall_m: 0.8743 - f1_m: 0.8884
+ 73/209 [=========>....................] - ETA: 16s - loss: 0.2674 - accuracy: 0.8901 - auc: 0.9551 - precision: 0.9056 - precision_m: 0.9057 - recall: 0.8714 - recall_m: 0.8730 - f1_m: 0.8879
+ 74/209 [=========>....................] - ETA: 16s - loss: 0.2679 - accuracy: 0.8896 - auc: 0.9548 - precision: 0.9048 - precision_m: 0.9049 - recall: 0.8712 - recall_m: 0.8728 - f1_m: 0.8874
+ 75/209 [=========>....................] - ETA: 16s - loss: 0.2692 - accuracy: 0.8893 - auc: 0.9544 - precision: 0.9050 - precision_m: 0.9051 - recall: 0.8706 - recall_m: 0.8722 - f1_m: 0.8872
+ 77/209 [==========>...................] - ETA: 15s - loss: 0.2686 - accuracy: 0.8895 - auc: 0.9546 - precision: 0.9051 - precision_m: 0.9065 - recall: 0.8708 - recall_m: 0.8741 - f1_m: 0.8888
+ 78/209 [==========>...................] - ETA: 15s - loss: 0.2687 - accuracy: 0.8893 - auc: 0.9545 - precision: 0.9048 - precision_m: 0.9062 - recall: 0.8706 - recall_m: 0.8738 - f1_m: 0.8885
+ 79/209 [==========>...................] - ETA: 15s - loss: 0.2713 - accuracy: 0.8884 - auc: 0.9540 - precision: 0.9038 - precision_m: 0.9051 - recall: 0.8698 - recall_m: 0.8730 - f1_m: 0.8877
+ 80/209 [==========>...................] - ETA: 15s - loss: 0.2721 - accuracy: 0.8885 - auc: 0.9536 - precision: 0.9034 - precision_m: 0.9047 - recall: 0.8702 - recall_m: 0.8734 - f1_m: 0.8877
+ 81/209 [==========>...................] - ETA: 15s - loss: 0.2724 - accuracy: 0.8882 - auc: 0.9536 - precision: 0.9031 - precision_m: 0.9044 - recall: 0.8698 - recall_m: 0.8729 - f1_m: 0.8873
+ 82/209 [==========>...................] - ETA: 15s - loss: 0.2735 - accuracy: 0.8876 - auc: 0.9532 - precision: 0.9032 - precision_m: 0.9045 - recall: 0.8684 - recall_m: 0.8715 - f1_m: 0.8865
+ 83/209 [==========>...................] - ETA: 15s - loss: 0.2732 - accuracy: 0.8879 - auc: 0.9533 - precision: 0.9027 - precision_m: 0.9040 - recall: 0.8692 - recall_m: 0.8724 - f1_m: 0.8867
+ 84/209 [===========>..................] - ETA: 15s - loss: 0.2721 - accuracy: 0.8885 - auc: 0.9536 - precision: 0.9029 - precision_m: 0.9041 - recall: 0.8700 - recall_m: 0.8733 - f1_m: 0.8872
+ 85/209 [===========>..................] - ETA: 15s - loss: 0.2734 - accuracy: 0.8877 - auc: 0.9532 - precision: 0.9032 - precision_m: 0.9045 - recall: 0.8683 - recall_m: 0.8718 - f1_m: 0.8866
+ 86/209 [===========>..................] - ETA: 15s - loss: 0.2736 - accuracy: 0.8874 - auc: 0.9532 - precision: 0.9028 - precision_m: 0.9041 - recall: 0.8682 - recall_m: 0.8717 - f1_m: 0.8863
+ 87/209 [===========>..................] - ETA: 14s - loss: 0.2733 - accuracy: 0.8876 - auc: 0.9533 - precision: 0.9037 - precision_m: 0.9049 - recall: 0.8682 - recall_m: 0.8716 - f1_m: 0.8867
+ 88/209 [===========>..................] - ETA: 14s - loss: 0.2726 - accuracy: 0.8878 - auc: 0.9535 - precision: 0.9034 - precision_m: 0.9045 - recall: 0.8687 - recall_m: 0.8721 - f1_m: 0.8868
+ 89/209 [===========>..................] - ETA: 14s - loss: 0.2719 - accuracy: 0.8882 - auc: 0.9538 - precision: 0.9029 - precision_m: 0.9041 - recall: 0.8699 - recall_m: 0.8734 - f1_m: 0.8872
+ 90/209 [===========>..................] - ETA: 14s - loss: 0.2720 - accuracy: 0.8878 - auc: 0.9539 - precision: 0.9032 - precision_m: 0.9044 - recall: 0.8690 - recall_m: 0.8725 - f1_m: 0.8868
+ 91/209 [============>.................] - ETA: 14s - loss: 0.2728 - accuracy: 0.8872 - auc: 0.9536 - precision: 0.9025 - precision_m: 0.9037 - recall: 0.8684 - recall_m: 0.8718 - f1_m: 0.8862
+ 92/209 [============>.................] - ETA: 14s - loss: 0.2729 - accuracy: 0.8870 - auc: 0.9535 - precision: 0.9023 - precision_m: 0.9035 - recall: 0.8686 - recall_m: 0.8720 - f1_m: 0.8862
+ 93/209 [============>.................] - ETA: 14s - loss: 0.2725 - accuracy: 0.8872 - auc: 0.9537 - precision: 0.9024 - precision_m: 0.9036 - recall: 0.8690 - recall_m: 0.8724 - f1_m: 0.8864
+ 94/209 [============>.................] - ETA: 14s - loss: 0.2729 - accuracy: 0.8867 - auc: 0.9535 - precision: 0.9019 - precision_m: 0.9031 - recall: 0.8685 - recall_m: 0.8718 - f1_m: 0.8859
+ 95/209 [============>.................] - ETA: 13s - loss: 0.2725 - accuracy: 0.8867 - auc: 0.9536 - precision: 0.9014 - precision_m: 0.9026 - recall: 0.8689 - recall_m: 0.8723 - f1_m: 0.8859
+ 96/209 [============>.................] - ETA: 13s - loss: 0.2725 - accuracy: 0.8869 - auc: 0.9536 - precision: 0.9021 - precision_m: 0.9031 - recall: 0.8691 - recall_m: 0.8724 - f1_m: 0.8862
+ 97/209 [============>.................] - ETA: 13s - loss: 0.2729 - accuracy: 0.8867 - auc: 0.9535 - precision: 0.9018 - precision_m: 0.9029 - recall: 0.8689 - recall_m: 0.8721 - f1_m: 0.8860
+ 98/209 [=============>................] - ETA: 13s - loss: 0.2733 - accuracy: 0.8867 - auc: 0.9534 - precision: 0.9019 - precision_m: 0.9030 - recall: 0.8691 - recall_m: 0.8723 - f1_m: 0.8861
+ 99/209 [=============>................] - ETA: 13s - loss: 0.2734 - accuracy: 0.8867 - auc: 0.9533 - precision: 0.9025 - precision_m: 0.9036 - recall: 0.8685 - recall_m: 0.8717 - f1_m: 0.8861
+100/209 [=============>................] - ETA: 13s - loss: 0.2731 - accuracy: 0.8866 - auc: 0.9534 - precision: 0.9025 - precision_m: 0.9035 - recall: 0.8687 - recall_m: 0.8718 - f1_m: 0.8861
+101/209 [=============>................] - ETA: 13s - loss: 0.2739 - accuracy: 0.8860 - auc: 0.9532 - precision: 0.9014 - precision_m: 0.9024 - recall: 0.8685 - recall_m: 0.8716 - f1_m: 0.8855
+102/209 [=============>................] - ETA: 13s - loss: 0.2741 - accuracy: 0.8863 - auc: 0.9531 - precision: 0.9015 - precision_m: 0.9025 - recall: 0.8690 - recall_m: 0.8721 - f1_m: 0.8858
+103/209 [=============>................] - ETA: 13s - loss: 0.2735 - accuracy: 0.8866 - auc: 0.9533 - precision: 0.9008 - precision_m: 0.9019 - recall: 0.8699 - recall_m: 0.8732 - f1_m: 0.8859
+104/209 [=============>................] - ETA: 12s - loss: 0.2732 - accuracy: 0.8870 - auc: 0.9534 - precision: 0.9008 - precision_m: 0.9019 - recall: 0.8706 - recall_m: 0.8739 - f1_m: 0.8863
+105/209 [==============>...............] - ETA: 12s - loss: 0.2735 - accuracy: 0.8870 - auc: 0.9533 - precision: 0.9006 - precision_m: 0.9016 - recall: 0.8705 - recall_m: 0.8738 - f1_m: 0.8862
+106/209 [==============>...............] - ETA: 12s - loss: 0.2737 - accuracy: 0.8870 - auc: 0.9533 - precision: 0.8999 - precision_m: 0.9009 - recall: 0.8711 - recall_m: 0.8744 - f1_m: 0.8861
+107/209 [==============>...............] - ETA: 12s - loss: 0.2749 - accuracy: 0.8864 - auc: 0.9529 - precision: 0.9000 - precision_m: 0.9011 - recall: 0.8699 - recall_m: 0.8733 - f1_m: 0.8856
+108/209 [==============>...............] - ETA: 12s - loss: 0.2746 - accuracy: 0.8866 - auc: 0.9530 - precision: 0.9002 - precision_m: 0.9012 - recall: 0.8700 - recall_m: 0.8735 - f1_m: 0.8857
+109/209 [==============>...............] - ETA: 12s - loss: 0.2740 - accuracy: 0.8869 - auc: 0.9532 - precision: 0.9004 - precision_m: 0.9014 - recall: 0.8705 - recall_m: 0.8739 - f1_m: 0.8861
+110/209 [==============>...............] - ETA: 12s - loss: 0.2745 - accuracy: 0.8866 - auc: 0.9530 - precision: 0.8996 - precision_m: 0.9006 - recall: 0.8706 - recall_m: 0.8740 - f1_m: 0.8857
+111/209 [==============>...............] - ETA: 12s - loss: 0.2740 - accuracy: 0.8869 - auc: 0.9532 - precision: 0.8998 - precision_m: 0.9008 - recall: 0.8712 - recall_m: 0.8745 - f1_m: 0.8861
+112/209 [===============>..............] - ETA: 11s - loss: 0.2737 - accuracy: 0.8871 - auc: 0.9532 - precision: 0.8999 - precision_m: 0.9009 - recall: 0.8715 - recall_m: 0.8747 - f1_m: 0.8862
+113/209 [===============>..............] - ETA: 11s - loss: 0.2736 - accuracy: 0.8865 - auc: 0.9532 - precision: 0.8999 - precision_m: 0.9009 - recall: 0.8705 - recall_m: 0.8739 - f1_m: 0.8858
+114/209 [===============>..............] - ETA: 11s - loss: 0.2735 - accuracy: 0.8864 - auc: 0.9533 - precision: 0.8996 - precision_m: 0.9006 - recall: 0.8707 - recall_m: 0.8740 - f1_m: 0.8857
+115/209 [===============>..............] - ETA: 11s - loss: 0.2741 - accuracy: 0.8863 - auc: 0.9530 - precision: 0.8991 - precision_m: 0.9000 - recall: 0.8708 - recall_m: 0.8741 - f1_m: 0.8855
+116/209 [===============>..............] - ETA: 11s - loss: 0.2747 - accuracy: 0.8858 - auc: 0.9529 - precision: 0.8984 - precision_m: 0.8994 - recall: 0.8705 - recall_m: 0.8738 - f1_m: 0.8850
+117/209 [===============>..............] - ETA: 11s - loss: 0.2747 - accuracy: 0.8859 - auc: 0.9528 - precision: 0.8987 - precision_m: 0.8997 - recall: 0.8705 - recall_m: 0.8737 - f1_m: 0.8851
+118/209 [===============>..............] - ETA: 11s - loss: 0.2748 - accuracy: 0.8860 - auc: 0.9529 - precision: 0.8989 - precision_m: 0.8999 - recall: 0.8704 - recall_m: 0.8736 - f1_m: 0.8852
+119/209 [================>.............] - ETA: 11s - loss: 0.2750 - accuracy: 0.8858 - auc: 0.9528 - precision: 0.8992 - precision_m: 0.9001 - recall: 0.8699 - recall_m: 0.8731 - f1_m: 0.8851
+120/209 [================>.............] - ETA: 10s - loss: 0.2752 - accuracy: 0.8857 - auc: 0.9526 - precision: 0.8989 - precision_m: 0.8998 - recall: 0.8700 - recall_m: 0.8732 - f1_m: 0.8849
+121/209 [================>.............] - ETA: 10s - loss: 0.2759 - accuracy: 0.8854 - auc: 0.9524 - precision: 0.8984 - precision_m: 0.8994 - recall: 0.8700 - recall_m: 0.8731 - f1_m: 0.8847
+122/209 [================>.............] - ETA: 10s - loss: 0.2753 - accuracy: 0.8862 - auc: 0.9525 - precision: 0.8991 - precision_m: 0.9001 - recall: 0.8707 - recall_m: 0.8739 - f1_m: 0.8854
+123/209 [================>.............] - ETA: 10s - loss: 0.2756 - accuracy: 0.8856 - auc: 0.9524 - precision: 0.8983 - precision_m: 0.8993 - recall: 0.8703 - recall_m: 0.8734 - f1_m: 0.8848
+124/209 [================>.............] - ETA: 10s - loss: 0.2753 - accuracy: 0.8857 - auc: 0.9525 - precision: 0.8985 - precision_m: 0.8994 - recall: 0.8703 - recall_m: 0.8734 - f1_m: 0.8849
+125/209 [================>.............] - ETA: 10s - loss: 0.2749 - accuracy: 0.8859 - auc: 0.9527 - precision: 0.8984 - precision_m: 0.8993 - recall: 0.8707 - recall_m: 0.8738 - f1_m: 0.8851
+126/209 [=================>............] - ETA: 10s - loss: 0.2748 - accuracy: 0.8858 - auc: 0.9527 - precision: 0.8984 - precision_m: 0.8993 - recall: 0.8704 - recall_m: 0.8735 - f1_m: 0.8849
+127/209 [=================>............] - ETA: 10s - loss: 0.2747 - accuracy: 0.8859 - auc: 0.9528 - precision: 0.8982 - precision_m: 0.8991 - recall: 0.8709 - recall_m: 0.8739 - f1_m: 0.8850
+128/209 [=================>............] - ETA: 9s - loss: 0.2754 - accuracy: 0.8859 - auc: 0.9525 - precision: 0.8978 - precision_m: 0.8987 - recall: 0.8709 - recall_m: 0.8740 - f1_m: 0.8848 
+129/209 [=================>............] - ETA: 9s - loss: 0.2753 - accuracy: 0.8860 - auc: 0.9526 - precision: 0.8977 - precision_m: 0.8986 - recall: 0.8710 - recall_m: 0.8740 - f1_m: 0.8848
+130/209 [=================>............] - ETA: 9s - loss: 0.2759 - accuracy: 0.8856 - auc: 0.9523 - precision: 0.8978 - precision_m: 0.8986 - recall: 0.8703 - recall_m: 0.8733 - f1_m: 0.8845
+131/209 [=================>............] - ETA: 9s - loss: 0.2756 - accuracy: 0.8858 - auc: 0.9525 - precision: 0.8979 - precision_m: 0.8988 - recall: 0.8705 - recall_m: 0.8735 - f1_m: 0.8847
+132/209 [=================>............] - ETA: 9s - loss: 0.2757 - accuracy: 0.8856 - auc: 0.9524 - precision: 0.8976 - precision_m: 0.8984 - recall: 0.8703 - recall_m: 0.8733 - f1_m: 0.8844
+133/209 [==================>...........] - ETA: 9s - loss: 0.2757 - accuracy: 0.8857 - auc: 0.9524 - precision: 0.8974 - precision_m: 0.8982 - recall: 0.8707 - recall_m: 0.8737 - f1_m: 0.8844
+134/209 [==================>...........] - ETA: 9s - loss: 0.2766 - accuracy: 0.8852 - auc: 0.9521 - precision: 0.8966 - precision_m: 0.8974 - recall: 0.8703 - recall_m: 0.8733 - f1_m: 0.8839
+135/209 [==================>...........] - ETA: 9s - loss: 0.2771 - accuracy: 0.8851 - auc: 0.9519 - precision: 0.8970 - precision_m: 0.8978 - recall: 0.8698 - recall_m: 0.8728 - f1_m: 0.8838
+136/209 [==================>...........] - ETA: 8s - loss: 0.2772 - accuracy: 0.8850 - auc: 0.9518 - precision: 0.8966 - precision_m: 0.8975 - recall: 0.8698 - recall_m: 0.8728 - f1_m: 0.8837
+137/209 [==================>...........] - ETA: 8s - loss: 0.2771 - accuracy: 0.8850 - auc: 0.9518 - precision: 0.8968 - precision_m: 0.8976 - recall: 0.8698 - recall_m: 0.8727 - f1_m: 0.8837
+138/209 [==================>...........] - ETA: 8s - loss: 0.2772 - accuracy: 0.8849 - auc: 0.9519 - precision: 0.8964 - precision_m: 0.8972 - recall: 0.8700 - recall_m: 0.8730 - f1_m: 0.8836
+139/209 [==================>...........] - ETA: 8s - loss: 0.2768 - accuracy: 0.8849 - auc: 0.9520 - precision: 0.8963 - precision_m: 0.8972 - recall: 0.8702 - recall_m: 0.8731 - f1_m: 0.8837
+140/209 [===================>..........] - ETA: 8s - loss: 0.2778 - accuracy: 0.8846 - auc: 0.9516 - precision: 0.8961 - precision_m: 0.8970 - recall: 0.8697 - recall_m: 0.8726 - f1_m: 0.8833
+141/209 [===================>..........] - ETA: 8s - loss: 0.2775 - accuracy: 0.8847 - auc: 0.9517 - precision: 0.8958 - precision_m: 0.8966 - recall: 0.8701 - recall_m: 0.8731 - f1_m: 0.8834
+142/209 [===================>..........] - ETA: 8s - loss: 0.2774 - accuracy: 0.8848 - auc: 0.9517 - precision: 0.8960 - precision_m: 0.8969 - recall: 0.8700 - recall_m: 0.8730 - f1_m: 0.8834
+143/209 [===================>..........] - ETA: 8s - loss: 0.2771 - accuracy: 0.8850 - auc: 0.9518 - precision: 0.8963 - precision_m: 0.8971 - recall: 0.8701 - recall_m: 0.8730 - f1_m: 0.8836
+144/209 [===================>..........] - ETA: 7s - loss: 0.2771 - accuracy: 0.8851 - auc: 0.9518 - precision: 0.8966 - precision_m: 0.8975 - recall: 0.8700 - recall_m: 0.8729 - f1_m: 0.8837
+145/209 [===================>..........] - ETA: 7s - loss: 0.2773 - accuracy: 0.8850 - auc: 0.9518 - precision: 0.8968 - precision_m: 0.8977 - recall: 0.8695 - recall_m: 0.8724 - f1_m: 0.8835
+146/209 [===================>..........] - ETA: 7s - loss: 0.2773 - accuracy: 0.8851 - auc: 0.9517 - precision: 0.8971 - precision_m: 0.8980 - recall: 0.8696 - recall_m: 0.8725 - f1_m: 0.8838
+147/209 [====================>.........] - ETA: 7s - loss: 0.2772 - accuracy: 0.8850 - auc: 0.9518 - precision: 0.8966 - precision_m: 0.8975 - recall: 0.8699 - recall_m: 0.8728 - f1_m: 0.8836
+148/209 [====================>.........] - ETA: 7s - loss: 0.2766 - accuracy: 0.8853 - auc: 0.9520 - precision: 0.8971 - precision_m: 0.8979 - recall: 0.8701 - recall_m: 0.8729 - f1_m: 0.8839
+149/209 [====================>.........] - ETA: 7s - loss: 0.2779 - accuracy: 0.8851 - auc: 0.9517 - precision: 0.8966 - precision_m: 0.8975 - recall: 0.8700 - recall_m: 0.8728 - f1_m: 0.8836
+150/209 [====================>.........] - ETA: 7s - loss: 0.2783 - accuracy: 0.8850 - auc: 0.9516 - precision: 0.8972 - precision_m: 0.8980 - recall: 0.8695 - recall_m: 0.8724 - f1_m: 0.8836
+151/209 [====================>.........] - ETA: 7s - loss: 0.2780 - accuracy: 0.8852 - auc: 0.9517 - precision: 0.8970 - precision_m: 0.8978 - recall: 0.8700 - recall_m: 0.8729 - f1_m: 0.8838
+152/209 [====================>.........] - ETA: 6s - loss: 0.2781 - accuracy: 0.8853 - auc: 0.9516 - precision: 0.8967 - precision_m: 0.8975 - recall: 0.8703 - recall_m: 0.8733 - f1_m: 0.8839
+153/209 [====================>.........] - ETA: 6s - loss: 0.2783 - accuracy: 0.8853 - auc: 0.9516 - precision: 0.8969 - precision_m: 0.8977 - recall: 0.8703 - recall_m: 0.8732 - f1_m: 0.8839
+154/209 [=====================>........] - ETA: 6s - loss: 0.2782 - accuracy: 0.8854 - auc: 0.9516 - precision: 0.8968 - precision_m: 0.8976 - recall: 0.8705 - recall_m: 0.8734 - f1_m: 0.8840
+155/209 [=====================>........] - ETA: 6s - loss: 0.2781 - accuracy: 0.8852 - auc: 0.9516 - precision: 0.8962 - precision_m: 0.8970 - recall: 0.8706 - recall_m: 0.8735 - f1_m: 0.8837
+156/209 [=====================>........] - ETA: 6s - loss: 0.2784 - accuracy: 0.8851 - auc: 0.9515 - precision: 0.8964 - precision_m: 0.8972 - recall: 0.8703 - recall_m: 0.8732 - f1_m: 0.8837
+157/209 [=====================>........] - ETA: 6s - loss: 0.2781 - accuracy: 0.8852 - auc: 0.9516 - precision: 0.8966 - precision_m: 0.8974 - recall: 0.8704 - recall_m: 0.8732 - f1_m: 0.8838
+158/209 [=====================>........] - ETA: 6s - loss: 0.2775 - accuracy: 0.8855 - auc: 0.9518 - precision: 0.8967 - precision_m: 0.8975 - recall: 0.8708 - recall_m: 0.8737 - f1_m: 0.8841
+159/209 [=====================>........] - ETA: 6s - loss: 0.2773 - accuracy: 0.8856 - auc: 0.9519 - precision: 0.8970 - precision_m: 0.8978 - recall: 0.8707 - recall_m: 0.8736 - f1_m: 0.8841
+160/209 [=====================>........] - ETA: 5s - loss: 0.2780 - accuracy: 0.8853 - auc: 0.9516 - precision: 0.8967 - precision_m: 0.8975 - recall: 0.8706 - recall_m: 0.8734 - f1_m: 0.8839
+161/209 [======================>.......] - ETA: 5s - loss: 0.2785 - accuracy: 0.8853 - auc: 0.9515 - precision: 0.8965 - precision_m: 0.8974 - recall: 0.8706 - recall_m: 0.8734 - f1_m: 0.8839
+162/209 [======================>.......] - ETA: 5s - loss: 0.2784 - accuracy: 0.8853 - auc: 0.9515 - precision: 0.8966 - precision_m: 0.8975 - recall: 0.8706 - recall_m: 0.8734 - f1_m: 0.8839
+163/209 [======================>.......] - ETA: 5s - loss: 0.2780 - accuracy: 0.8856 - auc: 0.9516 - precision: 0.8966 - precision_m: 0.8974 - recall: 0.8710 - recall_m: 0.8738 - f1_m: 0.8841
+164/209 [======================>.......] - ETA: 5s - loss: 0.2777 - accuracy: 0.8857 - auc: 0.9517 - precision: 0.8970 - precision_m: 0.8977 - recall: 0.8711 - recall_m: 0.8739 - f1_m: 0.8843
+165/209 [======================>.......] - ETA: 5s - loss: 0.2780 - accuracy: 0.8856 - auc: 0.9516 - precision: 0.8969 - precision_m: 0.8977 - recall: 0.8709 - recall_m: 0.8737 - f1_m: 0.8842
+166/209 [======================>.......] - ETA: 5s - loss: 0.2780 - accuracy: 0.8856 - auc: 0.9516 - precision: 0.8967 - precision_m: 0.8974 - recall: 0.8711 - recall_m: 0.8739 - f1_m: 0.8842
+167/209 [======================>.......] - ETA: 5s - loss: 0.2777 - accuracy: 0.8857 - auc: 0.9517 - precision: 0.8970 - precision_m: 0.8977 - recall: 0.8711 - recall_m: 0.8739 - f1_m: 0.8843
+168/209 [=======================>......] - ETA: 5s - loss: 0.2773 - accuracy: 0.8859 - auc: 0.9518 - precision: 0.8972 - precision_m: 0.8980 - recall: 0.8712 - recall_m: 0.8740 - f1_m: 0.8845
+169/209 [=======================>......] - ETA: 4s - loss: 0.2774 - accuracy: 0.8858 - auc: 0.9517 - precision: 0.8970 - precision_m: 0.8977 - recall: 0.8711 - recall_m: 0.8738 - f1_m: 0.8843
+170/209 [=======================>......] - ETA: 4s - loss: 0.2772 - accuracy: 0.8859 - auc: 0.9518 - precision: 0.8973 - precision_m: 0.8980 - recall: 0.8709 - recall_m: 0.8736 - f1_m: 0.8844
+171/209 [=======================>......] - ETA: 4s - loss: 0.2771 - accuracy: 0.8859 - auc: 0.9518 - precision: 0.8975 - precision_m: 0.8982 - recall: 0.8710 - recall_m: 0.8737 - f1_m: 0.8845
+172/209 [=======================>......] - ETA: 4s - loss: 0.2771 - accuracy: 0.8860 - auc: 0.9518 - precision: 0.8976 - precision_m: 0.8983 - recall: 0.8710 - recall_m: 0.8737 - f1_m: 0.8845
+173/209 [=======================>......] - ETA: 4s - loss: 0.2768 - accuracy: 0.8861 - auc: 0.9519 - precision: 0.8977 - precision_m: 0.8984 - recall: 0.8712 - recall_m: 0.8739 - f1_m: 0.8847
+174/209 [=======================>......] - ETA: 4s - loss: 0.2770 - accuracy: 0.8859 - auc: 0.9519 - precision: 0.8974 - precision_m: 0.8981 - recall: 0.8711 - recall_m: 0.8738 - f1_m: 0.8845
+175/209 [========================>.....] - ETA: 4s - loss: 0.2767 - accuracy: 0.8860 - auc: 0.9520 - precision: 0.8975 - precision_m: 0.8983 - recall: 0.8712 - recall_m: 0.8739 - f1_m: 0.8846
+176/209 [========================>.....] - ETA: 4s - loss: 0.2768 - accuracy: 0.8860 - auc: 0.9519 - precision: 0.8976 - precision_m: 0.8983 - recall: 0.8713 - recall_m: 0.8739 - f1_m: 0.8846
+177/209 [========================>.....] - ETA: 3s - loss: 0.2769 - accuracy: 0.8858 - auc: 0.9519 - precision: 0.8973 - precision_m: 0.8980 - recall: 0.8711 - recall_m: 0.8737 - f1_m: 0.8844
+178/209 [========================>.....] - ETA: 3s - loss: 0.2770 - accuracy: 0.8857 - auc: 0.9519 - precision: 0.8972 - precision_m: 0.8979 - recall: 0.8712 - recall_m: 0.8738 - f1_m: 0.8844
+179/209 [========================>.....] - ETA: 3s - loss: 0.2769 - accuracy: 0.8860 - auc: 0.9519 - precision: 0.8975 - precision_m: 0.8982 - recall: 0.8715 - recall_m: 0.8741 - f1_m: 0.8847
+180/209 [========================>.....] - ETA: 3s - loss: 0.2774 - accuracy: 0.8857 - auc: 0.9517 - precision: 0.8973 - precision_m: 0.8980 - recall: 0.8712 - recall_m: 0.8738 - f1_m: 0.8845
+181/209 [========================>.....] - ETA: 3s - loss: 0.2770 - accuracy: 0.8859 - auc: 0.9518 - precision: 0.8975 - precision_m: 0.8982 - recall: 0.8715 - recall_m: 0.8740 - f1_m: 0.8847
+182/209 [=========================>....] - ETA: 3s - loss: 0.2767 - accuracy: 0.8861 - auc: 0.9519 - precision: 0.8977 - precision_m: 0.8984 - recall: 0.8716 - recall_m: 0.8741 - f1_m: 0.8849
+183/209 [=========================>....] - ETA: 3s - loss: 0.2762 - accuracy: 0.8862 - auc: 0.9521 - precision: 0.8977 - precision_m: 0.8985 - recall: 0.8718 - recall_m: 0.8743 - f1_m: 0.8850
+184/209 [=========================>....] - ETA: 3s - loss: 0.2763 - accuracy: 0.8861 - auc: 0.9520 - precision: 0.8979 - precision_m: 0.8987 - recall: 0.8714 - recall_m: 0.8740 - f1_m: 0.8849
+185/209 [=========================>....] - ETA: 2s - loss: 0.2763 - accuracy: 0.8863 - auc: 0.9520 - precision: 0.8979 - precision_m: 0.8986 - recall: 0.8717 - recall_m: 0.8743 - f1_m: 0.8850
+186/209 [=========================>....] - ETA: 2s - loss: 0.2762 - accuracy: 0.8865 - auc: 0.9521 - precision: 0.8979 - precision_m: 0.8986 - recall: 0.8721 - recall_m: 0.8747 - f1_m: 0.8852
+187/209 [=========================>....] - ETA: 2s - loss: 0.2761 - accuracy: 0.8866 - auc: 0.9521 - precision: 0.8979 - precision_m: 0.8986 - recall: 0.8722 - recall_m: 0.8747 - f1_m: 0.8853
+188/209 [=========================>....] - ETA: 2s - loss: 0.2758 - accuracy: 0.8867 - auc: 0.9522 - precision: 0.8979 - precision_m: 0.8986 - recall: 0.8723 - recall_m: 0.8748 - f1_m: 0.8853
+189/209 [==========================>...] - ETA: 2s - loss: 0.2753 - accuracy: 0.8867 - auc: 0.9524 - precision: 0.8980 - precision_m: 0.8987 - recall: 0.8723 - recall_m: 0.8748 - f1_m: 0.8854
+190/209 [==========================>...] - ETA: 2s - loss: 0.2755 - accuracy: 0.8865 - auc: 0.9523 - precision: 0.8980 - precision_m: 0.8987 - recall: 0.8719 - recall_m: 0.8744 - f1_m: 0.8852
+191/209 [==========================>...] - ETA: 2s - loss: 0.2763 - accuracy: 0.8863 - auc: 0.9520 - precision: 0.8975 - precision_m: 0.8983 - recall: 0.8719 - recall_m: 0.8744 - f1_m: 0.8849
+192/209 [==========================>...] - ETA: 2s - loss: 0.2765 - accuracy: 0.8862 - auc: 0.9520 - precision: 0.8979 - precision_m: 0.8986 - recall: 0.8716 - recall_m: 0.8742 - f1_m: 0.8850
+193/209 [==========================>...] - ETA: 1s - loss: 0.2765 - accuracy: 0.8862 - auc: 0.9520 - precision: 0.8977 - precision_m: 0.8984 - recall: 0.8718 - recall_m: 0.8743 - f1_m: 0.8850
+194/209 [==========================>...] - ETA: 1s - loss: 0.2767 - accuracy: 0.8862 - auc: 0.9519 - precision: 0.8976 - precision_m: 0.8983 - recall: 0.8720 - recall_m: 0.8745 - f1_m: 0.8850
+195/209 [==========================>...] - ETA: 1s - loss: 0.2769 - accuracy: 0.8862 - auc: 0.9518 - precision: 0.8978 - precision_m: 0.8985 - recall: 0.8717 - recall_m: 0.8743 - f1_m: 0.8850
+196/209 [===========================>..] - ETA: 1s - loss: 0.2772 - accuracy: 0.8860 - auc: 0.9517 - precision: 0.8975 - precision_m: 0.8982 - recall: 0.8718 - recall_m: 0.8743 - f1_m: 0.8848
+197/209 [===========================>..] - ETA: 1s - loss: 0.2775 - accuracy: 0.8859 - auc: 0.9516 - precision: 0.8974 - precision_m: 0.8981 - recall: 0.8716 - recall_m: 0.8741 - f1_m: 0.8847
+198/209 [===========================>..] - ETA: 1s - loss: 0.2778 - accuracy: 0.8858 - auc: 0.9515 - precision: 0.8971 - precision_m: 0.8978 - recall: 0.8715 - recall_m: 0.8740 - f1_m: 0.8845
+199/209 [===========================>..] - ETA: 1s - loss: 0.2779 - accuracy: 0.8857 - auc: 0.9515 - precision: 0.8973 - precision_m: 0.8980 - recall: 0.8713 - recall_m: 0.8738 - f1_m: 0.8845
+200/209 [===========================>..] - ETA: 1s - loss: 0.2780 - accuracy: 0.8855 - auc: 0.9514 - precision: 0.8970 - precision_m: 0.8977 - recall: 0.8712 - recall_m: 0.8738 - f1_m: 0.8843
+201/209 [===========================>..] - ETA: 0s - loss: 0.2779 - accuracy: 0.8854 - auc: 0.9515 - precision: 0.8970 - precision_m: 0.8977 - recall: 0.8711 - recall_m: 0.8736 - f1_m: 0.8843
+202/209 [===========================>..] - ETA: 0s - loss: 0.2778 - accuracy: 0.8854 - auc: 0.9515 - precision: 0.8968 - precision_m: 0.8975 - recall: 0.8712 - recall_m: 0.8738 - f1_m: 0.8842
+203/209 [============================>.] - ETA: 0s - loss: 0.2778 - accuracy: 0.8854 - auc: 0.9515 - precision: 0.8967 - precision_m: 0.8974 - recall: 0.8714 - recall_m: 0.8739 - f1_m: 0.8843
+204/209 [============================>.] - ETA: 0s - loss: 0.2781 - accuracy: 0.8852 - auc: 0.9514 - precision: 0.8963 - precision_m: 0.8970 - recall: 0.8714 - recall_m: 0.8738 - f1_m: 0.8840
+205/209 [============================>.] - ETA: 0s - loss: 0.2783 - accuracy: 0.8850 - auc: 0.9513 - precision: 0.8964 - precision_m: 0.8971 - recall: 0.8710 - recall_m: 0.8735 - f1_m: 0.8839
+206/209 [============================>.] - ETA: 0s - loss: 0.2782 - accuracy: 0.8851 - auc: 0.9514 - precision: 0.8966 - precision_m: 0.8973 - recall: 0.8710 - recall_m: 0.8734 - f1_m: 0.8840
+207/209 [============================>.] - ETA: 0s - loss: 0.2779 - accuracy: 0.8851 - auc: 0.9515 - precision: 0.8966 - precision_m: 0.8972 - recall: 0.8709 - recall_m: 0.8733 - f1_m: 0.8839
+208/209 [============================>.] - ETA: 0s - loss: 0.2786 - accuracy: 0.8848 - auc: 0.9512 - precision: 0.8961 - precision_m: 0.8967 - recall: 0.8706 - recall_m: 0.8730 - f1_m: 0.8835
+209/209 [==============================] - ETA: 0s - loss: 0.2790 - accuracy: 0.8845 - auc: 0.9511 - precision: 0.8960 - precision_m: 0.8967 - recall: 0.8702 - recall_m: 0.8726 - f1_m: 0.8832
+209/209 [==============================] - 29s 137ms/step - loss: 0.2790 - accuracy: 0.8845 - auc: 0.9511 - precision: 0.8960 - precision_m: 0.8967 - recall: 0.8702 - recall_m: 0.8726 - f1_m: 0.8832 - val_loss: 0.2980 - val_accuracy: 0.8749 - val_auc: 0.9548 - val_precision: 0.9535 - val_precision_m: 0.9533 - val_recall: 0.7879 - val_recall_m: 0.7884 - val_f1_m: 0.8617
+
+  1/209 [..............................] - ETA: 30s - loss: 0.2485 - accuracy: 0.9219 - auc: 0.9705 - precision: 0.9180 - precision_m: 0.9180 - recall: 0.9180 - recall_m: 0.9180 - f1_m: 0.9180
+  2/209 [..............................] - ETA: 28s - loss: 0.2718 - accuracy: 0.9062 - auc: 0.9526 - precision: 0.9333 - precision_m: 0.9336 - recall: 0.8750 - recall_m: 0.8769 - f1_m: 0.9035
+  3/209 [..............................] - ETA: 27s - loss: 0.2624 - accuracy: 0.8932 - auc: 0.9563 - precision: 0.9218 - precision_m: 0.9218 - recall: 0.8594 - recall_m: 0.8607 - f1_m: 0.8896
+  4/209 [..............................] - ETA: 26s - loss: 0.2702 - accuracy: 0.8887 - auc: 0.9537 - precision: 0.9174 - precision_m: 0.9176 - recall: 0.8571 - recall_m: 0.8582 - f1_m: 0.8864
+  5/209 [..............................] - ETA: 25s - loss: 0.2673 - accuracy: 0.8875 - auc: 0.9555 - precision: 0.9251 - precision_m: 0.9248 - recall: 0.8529 - recall_m: 0.8541 - f1_m: 0.8875
+  6/209 [..............................] - ETA: 25s - loss: 0.2719 - accuracy: 0.8828 - auc: 0.9536 - precision: 0.9189 - precision_m: 0.9188 - recall: 0.8500 - recall_m: 0.8511 - f1_m: 0.8832
+  7/209 [>.............................] - ETA: 24s - loss: 0.2720 - accuracy: 0.8828 - auc: 0.9547 - precision: 0.9174 - precision_m: 0.9174 - recall: 0.8529 - recall_m: 0.8537 - f1_m: 0.8840
+  8/209 [>.............................] - ETA: 24s - loss: 0.2599 - accuracy: 0.8867 - auc: 0.9592 - precision: 0.9237 - precision_m: 0.9237 - recall: 0.8550 - recall_m: 0.8557 - f1_m: 0.8880
+  9/209 [>.............................] - ETA: 24s - loss: 0.2541 - accuracy: 0.8898 - auc: 0.9606 - precision: 0.9184 - precision_m: 0.9187 - recall: 0.8648 - recall_m: 0.8663 - f1_m: 0.8908
+ 10/209 [>.............................] - ETA: 23s - loss: 0.2450 - accuracy: 0.8945 - auc: 0.9637 - precision: 0.9200 - precision_m: 0.9203 - recall: 0.8712 - recall_m: 0.8731 - f1_m: 0.8952
+ 11/209 [>.............................] - ETA: 23s - loss: 0.2504 - accuracy: 0.8942 - auc: 0.9617 - precision: 0.9216 - precision_m: 0.9219 - recall: 0.8699 - recall_m: 0.8716 - f1_m: 0.8952
+ 12/209 [>.............................] - ETA: 23s - loss: 0.2560 - accuracy: 0.8906 - auc: 0.9593 - precision: 0.9122 - precision_m: 0.9125 - recall: 0.8706 - recall_m: 0.8723 - f1_m: 0.8909
+ 13/209 [>.............................] - ETA: 23s - loss: 0.2645 - accuracy: 0.8900 - auc: 0.9559 - precision: 0.9151 - precision_m: 0.9155 - recall: 0.8671 - recall_m: 0.8689 - f1_m: 0.8905
+ 14/209 [=>............................] - ETA: 23s - loss: 0.2658 - accuracy: 0.8895 - auc: 0.9556 - precision: 0.9125 - precision_m: 0.9130 - recall: 0.8690 - recall_m: 0.8707 - f1_m: 0.8902
+ 15/209 [=>............................] - ETA: 23s - loss: 0.2646 - accuracy: 0.8901 - auc: 0.9558 - precision: 0.9139 - precision_m: 0.9144 - recall: 0.8687 - recall_m: 0.8702 - f1_m: 0.8907
+ 16/209 [=>............................] - ETA: 22s - loss: 0.2652 - accuracy: 0.8896 - auc: 0.9556 - precision: 0.9136 - precision_m: 0.9140 - recall: 0.8665 - recall_m: 0.8677 - f1_m: 0.8893
+ 17/209 [=>............................] - ETA: 22s - loss: 0.2618 - accuracy: 0.8920 - auc: 0.9566 - precision: 0.9144 - precision_m: 0.9148 - recall: 0.8689 - recall_m: 0.8704 - f1_m: 0.8911
+ 18/209 [=>............................] - ETA: 22s - loss: 0.2594 - accuracy: 0.8924 - auc: 0.9573 - precision: 0.9153 - precision_m: 0.9158 - recall: 0.8684 - recall_m: 0.8698 - f1_m: 0.8913
+ 19/209 [=>............................] - ETA: 22s - loss: 0.2631 - accuracy: 0.8910 - auc: 0.9561 - precision: 0.9111 - precision_m: 0.9114 - recall: 0.8688 - recall_m: 0.8701 - f1_m: 0.8893
+ 20/209 [=>............................] - ETA: 22s - loss: 0.2598 - accuracy: 0.8926 - auc: 0.9572 - precision: 0.9118 - precision_m: 0.9122 - recall: 0.8699 - recall_m: 0.8714 - f1_m: 0.8904
+ 21/209 [==>...........................] - ETA: 22s - loss: 0.2575 - accuracy: 0.8940 - auc: 0.9581 - precision: 0.9136 - precision_m: 0.9140 - recall: 0.8709 - recall_m: 0.8723 - f1_m: 0.8918
+ 22/209 [==>...........................] - ETA: 22s - loss: 0.2565 - accuracy: 0.8938 - auc: 0.9583 - precision: 0.9125 - precision_m: 0.9129 - recall: 0.8717 - recall_m: 0.8730 - f1_m: 0.8917
+ 23/209 [==>...........................] - ETA: 22s - loss: 0.2559 - accuracy: 0.8947 - auc: 0.9587 - precision: 0.9123 - precision_m: 0.9127 - recall: 0.8724 - recall_m: 0.8738 - f1_m: 0.8920
+ 24/209 [==>...........................] - ETA: 21s - loss: 0.2549 - accuracy: 0.8942 - auc: 0.9588 - precision: 0.9086 - precision_m: 0.9084 - recall: 0.8732 - recall_m: 0.8747 - f1_m: 0.8903
+ 25/209 [==>...........................] - ETA: 21s - loss: 0.2639 - accuracy: 0.8897 - auc: 0.9558 - precision: 0.9096 - precision_m: 0.9094 - recall: 0.8645 - recall_m: 0.8677 - f1_m: 0.8867
+ 26/209 [==>...........................] - ETA: 21s - loss: 0.2668 - accuracy: 0.8888 - auc: 0.9551 - precision: 0.9097 - precision_m: 0.9096 - recall: 0.8639 - recall_m: 0.8671 - f1_m: 0.8865
+ 27/209 [==>...........................] - ETA: 21s - loss: 0.2647 - accuracy: 0.8892 - auc: 0.9556 - precision: 0.9088 - precision_m: 0.9087 - recall: 0.8652 - recall_m: 0.8683 - f1_m: 0.8867
+ 28/209 [===>..........................] - ETA: 21s - loss: 0.2615 - accuracy: 0.8903 - auc: 0.9567 - precision: 0.9082 - precision_m: 0.9081 - recall: 0.8681 - recall_m: 0.8713 - f1_m: 0.8879
+ 29/209 [===>..........................] - ETA: 21s - loss: 0.2609 - accuracy: 0.8912 - auc: 0.9569 - precision: 0.9102 - precision_m: 0.9098 - recall: 0.8692 - recall_m: 0.8721 - f1_m: 0.8892
+ 30/209 [===>..........................] - ETA: 21s - loss: 0.2580 - accuracy: 0.8927 - auc: 0.9579 - precision: 0.9109 - precision_m: 0.9104 - recall: 0.8722 - recall_m: 0.8749 - f1_m: 0.8909
+ 31/209 [===>..........................] - ETA: 21s - loss: 0.2585 - accuracy: 0.8931 - auc: 0.9580 - precision: 0.9105 - precision_m: 0.9101 - recall: 0.8741 - recall_m: 0.8766 - f1_m: 0.8917
+ 32/209 [===>..........................] - ETA: 20s - loss: 0.2568 - accuracy: 0.8936 - auc: 0.9585 - precision: 0.9104 - precision_m: 0.9101 - recall: 0.8752 - recall_m: 0.8776 - f1_m: 0.8922
+ 33/209 [===>..........................] - ETA: 20s - loss: 0.2538 - accuracy: 0.8942 - auc: 0.9593 - precision: 0.9106 - precision_m: 0.9103 - recall: 0.8759 - recall_m: 0.8783 - f1_m: 0.8927
+ 34/209 [===>..........................] - ETA: 20s - loss: 0.2540 - accuracy: 0.8941 - auc: 0.9593 - precision: 0.9123 - precision_m: 0.9120 - recall: 0.8746 - recall_m: 0.8770 - f1_m: 0.8928
+ 35/209 [====>.........................] - ETA: 20s - loss: 0.2552 - accuracy: 0.8940 - auc: 0.9589 - precision: 0.9109 - precision_m: 0.9107 - recall: 0.8759 - recall_m: 0.8783 - f1_m: 0.8929
+ 36/209 [====>.........................] - ETA: 20s - loss: 0.2535 - accuracy: 0.8945 - auc: 0.9595 - precision: 0.9100 - precision_m: 0.9099 - recall: 0.8780 - recall_m: 0.8803 - f1_m: 0.8935
+ 37/209 [====>.........................] - ETA: 20s - loss: 0.2535 - accuracy: 0.8946 - auc: 0.9596 - precision: 0.9107 - precision_m: 0.9106 - recall: 0.8777 - recall_m: 0.8800 - f1_m: 0.8937
+ 38/209 [====>.........................] - ETA: 20s - loss: 0.2518 - accuracy: 0.8949 - auc: 0.9600 - precision: 0.9085 - precision_m: 0.9084 - recall: 0.8800 - recall_m: 0.8827 - f1_m: 0.8938
+ 39/209 [====>.........................] - ETA: 20s - loss: 0.2521 - accuracy: 0.8940 - auc: 0.9599 - precision: 0.9086 - precision_m: 0.9085 - recall: 0.8779 - recall_m: 0.8806 - f1_m: 0.8928
+ 40/209 [====>.........................] - ETA: 20s - loss: 0.2518 - accuracy: 0.8947 - auc: 0.9601 - precision: 0.9088 - precision_m: 0.9087 - recall: 0.8788 - recall_m: 0.8815 - f1_m: 0.8934
+ 41/209 [====>.........................] - ETA: 20s - loss: 0.2545 - accuracy: 0.8937 - auc: 0.9591 - precision: 0.9064 - precision_m: 0.9061 - recall: 0.8781 - recall_m: 0.8806 - f1_m: 0.8916
+ 42/209 [=====>........................] - ETA: 19s - loss: 0.2574 - accuracy: 0.8923 - auc: 0.9581 - precision: 0.9065 - precision_m: 0.9062 - recall: 0.8752 - recall_m: 0.8778 - f1_m: 0.8901
+ 43/209 [=====>........................] - ETA: 19s - loss: 0.2594 - accuracy: 0.8917 - auc: 0.9575 - precision: 0.9076 - precision_m: 0.9072 - recall: 0.8735 - recall_m: 0.8762 - f1_m: 0.8898
+ 44/209 [=====>........................] - ETA: 19s - loss: 0.2599 - accuracy: 0.8917 - auc: 0.9573 - precision: 0.9081 - precision_m: 0.9077 - recall: 0.8727 - recall_m: 0.8754 - f1_m: 0.8896
+ 45/209 [=====>........................] - ETA: 19s - loss: 0.2607 - accuracy: 0.8913 - auc: 0.9572 - precision: 0.9080 - precision_m: 0.9077 - recall: 0.8723 - recall_m: 0.8749 - f1_m: 0.8894
+ 46/209 [=====>........................] - ETA: 19s - loss: 0.2614 - accuracy: 0.8908 - auc: 0.9569 - precision: 0.9062 - precision_m: 0.9058 - recall: 0.8727 - recall_m: 0.8753 - f1_m: 0.8887
+ 47/209 [=====>........................] - ETA: 19s - loss: 0.2639 - accuracy: 0.8896 - auc: 0.9561 - precision: 0.9049 - precision_m: 0.9044 - recall: 0.8712 - recall_m: 0.8736 - f1_m: 0.8872
+ 48/209 [=====>........................] - ETA: 19s - loss: 0.2639 - accuracy: 0.8896 - auc: 0.9561 - precision: 0.9050 - precision_m: 0.9046 - recall: 0.8708 - recall_m: 0.8731 - f1_m: 0.8870
+ 49/209 [======>.......................] - ETA: 19s - loss: 0.2633 - accuracy: 0.8901 - auc: 0.9563 - precision: 0.9050 - precision_m: 0.9046 - recall: 0.8712 - recall_m: 0.8735 - f1_m: 0.8872
+ 50/209 [======>.......................] - ETA: 18s - loss: 0.2625 - accuracy: 0.8906 - auc: 0.9566 - precision: 0.9041 - precision_m: 0.9037 - recall: 0.8723 - recall_m: 0.8749 - f1_m: 0.8874
+ 51/209 [======>.......................] - ETA: 18s - loss: 0.2633 - accuracy: 0.8905 - auc: 0.9562 - precision: 0.9042 - precision_m: 0.9038 - recall: 0.8716 - recall_m: 0.8740 - f1_m: 0.8871
+ 52/209 [======>.......................] - ETA: 18s - loss: 0.2648 - accuracy: 0.8900 - auc: 0.9556 - precision: 0.9053 - precision_m: 0.9049 - recall: 0.8697 - recall_m: 0.8723 - f1_m: 0.8867
+ 53/209 [======>.......................] - ETA: 18s - loss: 0.2661 - accuracy: 0.8896 - auc: 0.9551 - precision: 0.9049 - precision_m: 0.9045 - recall: 0.8691 - recall_m: 0.8717 - f1_m: 0.8861
+ 54/209 [======>.......................] - ETA: 18s - loss: 0.2694 - accuracy: 0.8892 - auc: 0.9547 - precision: 0.9056 - precision_m: 0.9053 - recall: 0.8677 - recall_m: 0.8703 - f1_m: 0.8858
+ 55/209 [======>.......................] - ETA: 18s - loss: 0.2694 - accuracy: 0.8891 - auc: 0.9546 - precision: 0.9049 - precision_m: 0.9046 - recall: 0.8680 - recall_m: 0.8705 - f1_m: 0.8856
+ 56/209 [=======>......................] - ETA: 18s - loss: 0.2698 - accuracy: 0.8890 - auc: 0.9545 - precision: 0.9059 - precision_m: 0.9057 - recall: 0.8668 - recall_m: 0.8694 - f1_m: 0.8855
+ 57/209 [=======>......................] - ETA: 18s - loss: 0.2695 - accuracy: 0.8884 - auc: 0.9547 - precision: 0.9054 - precision_m: 0.9052 - recall: 0.8665 - recall_m: 0.8690 - f1_m: 0.8851
+ 58/209 [=======>......................] - ETA: 18s - loss: 0.2696 - accuracy: 0.8882 - auc: 0.9546 - precision: 0.9048 - precision_m: 0.9047 - recall: 0.8666 - recall_m: 0.8691 - f1_m: 0.8849
+ 59/209 [=======>......................] - ETA: 17s - loss: 0.2694 - accuracy: 0.8885 - auc: 0.9546 - precision: 0.9044 - precision_m: 0.9042 - recall: 0.8672 - recall_m: 0.8698 - f1_m: 0.8850
+ 60/209 [=======>......................] - ETA: 17s - loss: 0.2702 - accuracy: 0.8884 - auc: 0.9543 - precision: 0.9040 - precision_m: 0.9039 - recall: 0.8673 - recall_m: 0.8698 - f1_m: 0.8849
+ 62/209 [=======>......................] - ETA: 17s - loss: 0.2699 - accuracy: 0.8886 - auc: 0.9545 - precision: 0.9050 - precision_m: 0.9064 - recall: 0.8668 - recall_m: 0.8713 - f1_m: 0.8869
+ 63/209 [========>.....................] - ETA: 17s - loss: 0.2704 - accuracy: 0.8884 - auc: 0.9543 - precision: 0.9039 - precision_m: 0.9054 - recall: 0.8672 - recall_m: 0.8717 - f1_m: 0.8866
+ 64/209 [========>.....................] - ETA: 17s - loss: 0.2716 - accuracy: 0.8879 - auc: 0.9538 - precision: 0.9043 - precision_m: 0.9057 - recall: 0.8660 - recall_m: 0.8705 - f1_m: 0.8861
+ 65/209 [========>.....................] - ETA: 16s - loss: 0.2712 - accuracy: 0.8882 - auc: 0.9538 - precision: 0.9040 - precision_m: 0.9054 - recall: 0.8666 - recall_m: 0.8712 - f1_m: 0.8863
+ 66/209 [========>.....................] - ETA: 16s - loss: 0.2709 - accuracy: 0.8880 - auc: 0.9540 - precision: 0.9042 - precision_m: 0.9056 - recall: 0.8662 - recall_m: 0.8707 - f1_m: 0.8862
+ 67/209 [========>.....................] - ETA: 16s - loss: 0.2714 - accuracy: 0.8877 - auc: 0.9537 - precision: 0.9043 - precision_m: 0.9057 - recall: 0.8653 - recall_m: 0.8697 - f1_m: 0.8857
+ 68/209 [========>.....................] - ETA: 16s - loss: 0.2730 - accuracy: 0.8873 - auc: 0.9532 - precision: 0.9035 - precision_m: 0.9049 - recall: 0.8651 - recall_m: 0.8694 - f1_m: 0.8852
+ 69/209 [========>.....................] - ETA: 16s - loss: 0.2735 - accuracy: 0.8870 - auc: 0.9530 - precision: 0.9031 - precision_m: 0.9044 - recall: 0.8646 - recall_m: 0.8688 - f1_m: 0.8847
+ 70/209 [=========>....................] - ETA: 16s - loss: 0.2731 - accuracy: 0.8876 - auc: 0.9531 - precision: 0.9042 - precision_m: 0.9055 - recall: 0.8647 - recall_m: 0.8689 - f1_m: 0.8853
+ 71/209 [=========>....................] - ETA: 16s - loss: 0.2734 - accuracy: 0.8879 - auc: 0.9531 - precision: 0.9039 - precision_m: 0.9053 - recall: 0.8654 - recall_m: 0.8696 - f1_m: 0.8855
+ 72/209 [=========>....................] - ETA: 16s - loss: 0.2731 - accuracy: 0.8886 - auc: 0.9532 - precision: 0.9046 - precision_m: 0.9059 - recall: 0.8662 - recall_m: 0.8703 - f1_m: 0.8862
+ 73/209 [=========>....................] - ETA: 15s - loss: 0.2735 - accuracy: 0.8887 - auc: 0.9530 - precision: 0.9054 - precision_m: 0.9067 - recall: 0.8658 - recall_m: 0.8699 - f1_m: 0.8863
+ 74/209 [=========>....................] - ETA: 15s - loss: 0.2739 - accuracy: 0.8884 - auc: 0.9529 - precision: 0.9064 - precision_m: 0.9076 - recall: 0.8648 - recall_m: 0.8690 - f1_m: 0.8863
+ 75/209 [=========>....................] - ETA: 15s - loss: 0.2747 - accuracy: 0.8881 - auc: 0.9526 - precision: 0.9055 - precision_m: 0.9067 - recall: 0.8651 - recall_m: 0.8692 - f1_m: 0.8860
+ 76/209 [=========>....................] - ETA: 15s - loss: 0.2739 - accuracy: 0.8889 - auc: 0.9529 - precision: 0.9060 - precision_m: 0.9072 - recall: 0.8663 - recall_m: 0.8704 - f1_m: 0.8868
+ 77/209 [==========>...................] - ETA: 15s - loss: 0.2727 - accuracy: 0.8891 - auc: 0.9533 - precision: 0.9065 - precision_m: 0.9076 - recall: 0.8666 - recall_m: 0.8706 - f1_m: 0.8871
+ 78/209 [==========>...................] - ETA: 15s - loss: 0.2720 - accuracy: 0.8891 - auc: 0.9535 - precision: 0.9068 - precision_m: 0.9079 - recall: 0.8664 - recall_m: 0.8703 - f1_m: 0.8872
+ 79/209 [==========>...................] - ETA: 15s - loss: 0.2739 - accuracy: 0.8881 - auc: 0.9529 - precision: 0.9058 - precision_m: 0.9070 - recall: 0.8656 - recall_m: 0.8695 - f1_m: 0.8863
+ 80/209 [==========>...................] - ETA: 15s - loss: 0.2741 - accuracy: 0.8881 - auc: 0.9528 - precision: 0.9055 - precision_m: 0.9067 - recall: 0.8656 - recall_m: 0.8695 - f1_m: 0.8862
+ 81/209 [==========>...................] - ETA: 15s - loss: 0.2739 - accuracy: 0.8879 - auc: 0.9529 - precision: 0.9057 - precision_m: 0.9068 - recall: 0.8652 - recall_m: 0.8691 - f1_m: 0.8860
+ 82/209 [==========>...................] - ETA: 15s - loss: 0.2747 - accuracy: 0.8873 - auc: 0.9526 - precision: 0.9051 - precision_m: 0.9062 - recall: 0.8646 - recall_m: 0.8684 - f1_m: 0.8854
+ 83/209 [==========>...................] - ETA: 14s - loss: 0.2748 - accuracy: 0.8874 - auc: 0.9526 - precision: 0.9050 - precision_m: 0.9062 - recall: 0.8649 - recall_m: 0.8687 - f1_m: 0.8856
+ 84/209 [===========>..................] - ETA: 14s - loss: 0.2752 - accuracy: 0.8873 - auc: 0.9525 - precision: 0.9051 - precision_m: 0.9062 - recall: 0.8648 - recall_m: 0.8686 - f1_m: 0.8855
+ 85/209 [===========>..................] - ETA: 14s - loss: 0.2746 - accuracy: 0.8874 - auc: 0.9527 - precision: 0.9051 - precision_m: 0.9062 - recall: 0.8652 - recall_m: 0.8689 - f1_m: 0.8857
+ 86/209 [===========>..................] - ETA: 14s - loss: 0.2744 - accuracy: 0.8877 - auc: 0.9528 - precision: 0.9055 - precision_m: 0.9066 - recall: 0.8656 - recall_m: 0.8692 - f1_m: 0.8861
+ 87/209 [===========>..................] - ETA: 14s - loss: 0.2735 - accuracy: 0.8882 - auc: 0.9530 - precision: 0.9059 - precision_m: 0.9069 - recall: 0.8663 - recall_m: 0.8698 - f1_m: 0.8866
+ 88/209 [===========>..................] - ETA: 14s - loss: 0.2726 - accuracy: 0.8888 - auc: 0.9534 - precision: 0.9059 - precision_m: 0.9069 - recall: 0.8672 - recall_m: 0.8709 - f1_m: 0.8871
+ 89/209 [===========>..................] - ETA: 14s - loss: 0.2712 - accuracy: 0.8894 - auc: 0.9539 - precision: 0.9064 - precision_m: 0.9074 - recall: 0.8680 - recall_m: 0.8716 - f1_m: 0.8877
+ 90/209 [===========>..................] - ETA: 14s - loss: 0.2700 - accuracy: 0.8898 - auc: 0.9542 - precision: 0.9060 - precision_m: 0.9069 - recall: 0.8689 - recall_m: 0.8726 - f1_m: 0.8880
+ 91/209 [============>.................] - ETA: 13s - loss: 0.2705 - accuracy: 0.8898 - auc: 0.9541 - precision: 0.9069 - precision_m: 0.9078 - recall: 0.8684 - recall_m: 0.8722 - f1_m: 0.8881
+ 92/209 [============>.................] - ETA: 13s - loss: 0.2703 - accuracy: 0.8899 - auc: 0.9542 - precision: 0.9071 - precision_m: 0.9080 - recall: 0.8686 - recall_m: 0.8723 - f1_m: 0.8883
+ 93/209 [============>.................] - ETA: 13s - loss: 0.2704 - accuracy: 0.8898 - auc: 0.9541 - precision: 0.9063 - precision_m: 0.9072 - recall: 0.8690 - recall_m: 0.8727 - f1_m: 0.8882
+ 94/209 [============>.................] - ETA: 13s - loss: 0.2699 - accuracy: 0.8901 - auc: 0.9543 - precision: 0.9060 - precision_m: 0.9069 - recall: 0.8698 - recall_m: 0.8735 - f1_m: 0.8884
+ 95/209 [============>.................] - ETA: 13s - loss: 0.2699 - accuracy: 0.8898 - auc: 0.9543 - precision: 0.9062 - precision_m: 0.9071 - recall: 0.8690 - recall_m: 0.8727 - f1_m: 0.8881
+ 96/209 [============>.................] - ETA: 13s - loss: 0.2700 - accuracy: 0.8897 - auc: 0.9543 - precision: 0.9062 - precision_m: 0.9071 - recall: 0.8690 - recall_m: 0.8727 - f1_m: 0.8881
+ 97/209 [============>.................] - ETA: 13s - loss: 0.2699 - accuracy: 0.8895 - auc: 0.9543 - precision: 0.9058 - precision_m: 0.9067 - recall: 0.8689 - recall_m: 0.8725 - f1_m: 0.8878
+ 98/209 [=============>................] - ETA: 13s - loss: 0.2692 - accuracy: 0.8898 - auc: 0.9544 - precision: 0.9058 - precision_m: 0.9067 - recall: 0.8694 - recall_m: 0.8730 - f1_m: 0.8880
+ 99/209 [=============>................] - ETA: 13s - loss: 0.2695 - accuracy: 0.8894 - auc: 0.9543 - precision: 0.9058 - precision_m: 0.9066 - recall: 0.8689 - recall_m: 0.8725 - f1_m: 0.8878
+100/209 [=============>................] - ETA: 12s - loss: 0.2689 - accuracy: 0.8897 - auc: 0.9545 - precision: 0.9061 - precision_m: 0.9069 - recall: 0.8692 - recall_m: 0.8727 - f1_m: 0.8880
+101/209 [=============>................] - ETA: 12s - loss: 0.2694 - accuracy: 0.8892 - auc: 0.9544 - precision: 0.9062 - precision_m: 0.9071 - recall: 0.8683 - recall_m: 0.8719 - f1_m: 0.8877
+102/209 [=============>................] - ETA: 12s - loss: 0.2694 - accuracy: 0.8895 - auc: 0.9544 - precision: 0.9064 - precision_m: 0.9072 - recall: 0.8687 - recall_m: 0.8723 - f1_m: 0.8880
+103/209 [=============>................] - ETA: 12s - loss: 0.2692 - accuracy: 0.8895 - auc: 0.9545 - precision: 0.9064 - precision_m: 0.9072 - recall: 0.8688 - recall_m: 0.8724 - f1_m: 0.8880
+104/209 [=============>................] - ETA: 12s - loss: 0.2688 - accuracy: 0.8897 - auc: 0.9546 - precision: 0.9067 - precision_m: 0.9075 - recall: 0.8689 - recall_m: 0.8724 - f1_m: 0.8882
+105/209 [==============>...............] - ETA: 12s - loss: 0.2688 - accuracy: 0.8897 - auc: 0.9546 - precision: 0.9067 - precision_m: 0.9075 - recall: 0.8690 - recall_m: 0.8725 - f1_m: 0.8882
+106/209 [==============>...............] - ETA: 12s - loss: 0.2682 - accuracy: 0.8900 - auc: 0.9548 - precision: 0.9068 - precision_m: 0.9076 - recall: 0.8695 - recall_m: 0.8729 - f1_m: 0.8885
+107/209 [==============>...............] - ETA: 12s - loss: 0.2684 - accuracy: 0.8901 - auc: 0.9548 - precision: 0.9065 - precision_m: 0.9073 - recall: 0.8700 - recall_m: 0.8734 - f1_m: 0.8886
+108/209 [==============>...............] - ETA: 11s - loss: 0.2683 - accuracy: 0.8900 - auc: 0.9549 - precision: 0.9062 - precision_m: 0.9071 - recall: 0.8701 - recall_m: 0.8735 - f1_m: 0.8886
+109/209 [==============>...............] - ETA: 11s - loss: 0.2678 - accuracy: 0.8904 - auc: 0.9551 - precision: 0.9061 - precision_m: 0.9069 - recall: 0.8709 - recall_m: 0.8744 - f1_m: 0.8889
+110/209 [==============>...............] - ETA: 11s - loss: 0.2690 - accuracy: 0.8900 - auc: 0.9547 - precision: 0.9055 - precision_m: 0.9063 - recall: 0.8708 - recall_m: 0.8742 - f1_m: 0.8885
+111/209 [==============>...............] - ETA: 11s - loss: 0.2689 - accuracy: 0.8900 - auc: 0.9548 - precision: 0.9053 - precision_m: 0.9061 - recall: 0.8709 - recall_m: 0.8743 - f1_m: 0.8885
+112/209 [===============>..............] - ETA: 11s - loss: 0.2695 - accuracy: 0.8900 - auc: 0.9545 - precision: 0.9056 - precision_m: 0.9064 - recall: 0.8708 - recall_m: 0.8741 - f1_m: 0.8886
+113/209 [===============>..............] - ETA: 11s - loss: 0.2693 - accuracy: 0.8902 - auc: 0.9546 - precision: 0.9056 - precision_m: 0.9064 - recall: 0.8711 - recall_m: 0.8744 - f1_m: 0.8887
+114/209 [===============>..............] - ETA: 11s - loss: 0.2695 - accuracy: 0.8899 - auc: 0.9545 - precision: 0.9050 - precision_m: 0.9058 - recall: 0.8714 - recall_m: 0.8747 - f1_m: 0.8886
+115/209 [===============>..............] - ETA: 11s - loss: 0.2696 - accuracy: 0.8897 - auc: 0.9545 - precision: 0.9046 - precision_m: 0.9054 - recall: 0.8715 - recall_m: 0.8747 - f1_m: 0.8884
+116/209 [===============>..............] - ETA: 11s - loss: 0.2695 - accuracy: 0.8897 - auc: 0.9545 - precision: 0.9043 - precision_m: 0.9052 - recall: 0.8716 - recall_m: 0.8749 - f1_m: 0.8884
+117/209 [===============>..............] - ETA: 10s - loss: 0.2698 - accuracy: 0.8895 - auc: 0.9544 - precision: 0.9040 - precision_m: 0.9049 - recall: 0.8715 - recall_m: 0.8747 - f1_m: 0.8882
+118/209 [===============>..............] - ETA: 10s - loss: 0.2699 - accuracy: 0.8895 - auc: 0.9544 - precision: 0.9040 - precision_m: 0.9049 - recall: 0.8715 - recall_m: 0.8747 - f1_m: 0.8882
+119/209 [================>.............] - ETA: 10s - loss: 0.2699 - accuracy: 0.8894 - auc: 0.9544 - precision: 0.9039 - precision_m: 0.9048 - recall: 0.8715 - recall_m: 0.8746 - f1_m: 0.8881
+120/209 [================>.............] - ETA: 10s - loss: 0.2692 - accuracy: 0.8898 - auc: 0.9546 - precision: 0.9045 - precision_m: 0.9053 - recall: 0.8718 - recall_m: 0.8749 - f1_m: 0.8885
+121/209 [================>.............] - ETA: 10s - loss: 0.2686 - accuracy: 0.8897 - auc: 0.9549 - precision: 0.9042 - precision_m: 0.9051 - recall: 0.8720 - recall_m: 0.8751 - f1_m: 0.8885
+122/209 [================>.............] - ETA: 10s - loss: 0.2680 - accuracy: 0.8899 - auc: 0.9550 - precision: 0.9047 - precision_m: 0.9056 - recall: 0.8719 - recall_m: 0.8749 - f1_m: 0.8886
+123/209 [================>.............] - ETA: 10s - loss: 0.2677 - accuracy: 0.8901 - auc: 0.9551 - precision: 0.9050 - precision_m: 0.9059 - recall: 0.8718 - recall_m: 0.8748 - f1_m: 0.8888
+124/209 [================>.............] - ETA: 10s - loss: 0.2678 - accuracy: 0.8902 - auc: 0.9551 - precision: 0.9054 - precision_m: 0.9063 - recall: 0.8718 - recall_m: 0.8748 - f1_m: 0.8889
+125/209 [================>.............] - ETA: 10s - loss: 0.2678 - accuracy: 0.8903 - auc: 0.9551 - precision: 0.9049 - precision_m: 0.9058 - recall: 0.8724 - recall_m: 0.8754 - f1_m: 0.8890
+126/209 [=================>............] - ETA: 9s - loss: 0.2689 - accuracy: 0.8898 - auc: 0.9547 - precision: 0.9043 - precision_m: 0.9052 - recall: 0.8720 - recall_m: 0.8749 - f1_m: 0.8885 
+127/209 [=================>............] - ETA: 9s - loss: 0.2690 - accuracy: 0.8898 - auc: 0.9547 - precision: 0.9042 - precision_m: 0.9050 - recall: 0.8722 - recall_m: 0.8752 - f1_m: 0.8885
+128/209 [=================>............] - ETA: 9s - loss: 0.2692 - accuracy: 0.8897 - auc: 0.9546 - precision: 0.9043 - precision_m: 0.9051 - recall: 0.8722 - recall_m: 0.8751 - f1_m: 0.8886
+129/209 [=================>............] - ETA: 9s - loss: 0.2691 - accuracy: 0.8899 - auc: 0.9546 - precision: 0.9044 - precision_m: 0.9053 - recall: 0.8725 - recall_m: 0.8754 - f1_m: 0.8888
+130/209 [=================>............] - ETA: 9s - loss: 0.2691 - accuracy: 0.8900 - auc: 0.9546 - precision: 0.9047 - precision_m: 0.9056 - recall: 0.8725 - recall_m: 0.8754 - f1_m: 0.8889
+131/209 [=================>............] - ETA: 9s - loss: 0.2696 - accuracy: 0.8899 - auc: 0.9544 - precision: 0.9041 - precision_m: 0.9049 - recall: 0.8729 - recall_m: 0.8758 - f1_m: 0.8888
+132/209 [=================>............] - ETA: 9s - loss: 0.2701 - accuracy: 0.8896 - auc: 0.9542 - precision: 0.9039 - precision_m: 0.9047 - recall: 0.8724 - recall_m: 0.8753 - f1_m: 0.8884
+133/209 [==================>...........] - ETA: 9s - loss: 0.2705 - accuracy: 0.8893 - auc: 0.9541 - precision: 0.9032 - precision_m: 0.9040 - recall: 0.8724 - recall_m: 0.8752 - f1_m: 0.8881
+134/209 [==================>...........] - ETA: 8s - loss: 0.2699 - accuracy: 0.8895 - auc: 0.9544 - precision: 0.9037 - precision_m: 0.9045 - recall: 0.8724 - recall_m: 0.8752 - f1_m: 0.8883
+135/209 [==================>...........] - ETA: 8s - loss: 0.2702 - accuracy: 0.8894 - auc: 0.9542 - precision: 0.9034 - precision_m: 0.9042 - recall: 0.8722 - recall_m: 0.8750 - f1_m: 0.8880
+136/209 [==================>...........] - ETA: 8s - loss: 0.2705 - accuracy: 0.8892 - auc: 0.9541 - precision: 0.9032 - precision_m: 0.9040 - recall: 0.8720 - recall_m: 0.8747 - f1_m: 0.8878
+137/209 [==================>...........] - ETA: 8s - loss: 0.2714 - accuracy: 0.8886 - auc: 0.9538 - precision: 0.9028 - precision_m: 0.9036 - recall: 0.8712 - recall_m: 0.8740 - f1_m: 0.8873
+138/209 [==================>...........] - ETA: 8s - loss: 0.2710 - accuracy: 0.8891 - auc: 0.9540 - precision: 0.9033 - precision_m: 0.9041 - recall: 0.8717 - recall_m: 0.8745 - f1_m: 0.8877
+139/209 [==================>...........] - ETA: 8s - loss: 0.2710 - accuracy: 0.8892 - auc: 0.9540 - precision: 0.9032 - precision_m: 0.9040 - recall: 0.8720 - recall_m: 0.8748 - f1_m: 0.8878
+140/209 [===================>..........] - ETA: 8s - loss: 0.2710 - accuracy: 0.8892 - auc: 0.9540 - precision: 0.9031 - precision_m: 0.9039 - recall: 0.8721 - recall_m: 0.8749 - f1_m: 0.8878
+141/209 [===================>..........] - ETA: 8s - loss: 0.2707 - accuracy: 0.8892 - auc: 0.9541 - precision: 0.9032 - precision_m: 0.9040 - recall: 0.8721 - recall_m: 0.8748 - f1_m: 0.8879
+142/209 [===================>..........] - ETA: 7s - loss: 0.2712 - accuracy: 0.8889 - auc: 0.9539 - precision: 0.9026 - precision_m: 0.9034 - recall: 0.8718 - recall_m: 0.8745 - f1_m: 0.8874
+143/209 [===================>..........] - ETA: 7s - loss: 0.2717 - accuracy: 0.8887 - auc: 0.9538 - precision: 0.9028 - precision_m: 0.9036 - recall: 0.8714 - recall_m: 0.8741 - f1_m: 0.8873
+144/209 [===================>..........] - ETA: 7s - loss: 0.2715 - accuracy: 0.8888 - auc: 0.9539 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8714 - recall_m: 0.8741 - f1_m: 0.8874
+145/209 [===================>..........] - ETA: 7s - loss: 0.2716 - accuracy: 0.8887 - auc: 0.9538 - precision: 0.9030 - precision_m: 0.9037 - recall: 0.8713 - recall_m: 0.8740 - f1_m: 0.8873
+146/209 [===================>..........] - ETA: 7s - loss: 0.2720 - accuracy: 0.8886 - auc: 0.9537 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8712 - recall_m: 0.8738 - f1_m: 0.8873
+147/209 [====================>.........] - ETA: 7s - loss: 0.2722 - accuracy: 0.8886 - auc: 0.9536 - precision: 0.9030 - precision_m: 0.9037 - recall: 0.8711 - recall_m: 0.8737 - f1_m: 0.8872
+148/209 [====================>.........] - ETA: 7s - loss: 0.2727 - accuracy: 0.8882 - auc: 0.9534 - precision: 0.9029 - precision_m: 0.9036 - recall: 0.8706 - recall_m: 0.8732 - f1_m: 0.8869
+149/209 [====================>.........] - ETA: 7s - loss: 0.2729 - accuracy: 0.8882 - auc: 0.9533 - precision: 0.9025 - precision_m: 0.9032 - recall: 0.8708 - recall_m: 0.8735 - f1_m: 0.8868
+150/209 [====================>.........] - ETA: 7s - loss: 0.2728 - accuracy: 0.8881 - auc: 0.9533 - precision: 0.9027 - precision_m: 0.9034 - recall: 0.8705 - recall_m: 0.8731 - f1_m: 0.8867
+151/209 [====================>.........] - ETA: 6s - loss: 0.2723 - accuracy: 0.8883 - auc: 0.9535 - precision: 0.9030 - precision_m: 0.9037 - recall: 0.8706 - recall_m: 0.8732 - f1_m: 0.8869
+152/209 [====================>.........] - ETA: 6s - loss: 0.2724 - accuracy: 0.8883 - auc: 0.9535 - precision: 0.9030 - precision_m: 0.9038 - recall: 0.8704 - recall_m: 0.8730 - f1_m: 0.8869
+153/209 [====================>.........] - ETA: 6s - loss: 0.2727 - accuracy: 0.8880 - auc: 0.9534 - precision: 0.9028 - precision_m: 0.9034 - recall: 0.8700 - recall_m: 0.8726 - f1_m: 0.8865
+154/209 [=====================>........] - ETA: 6s - loss: 0.2726 - accuracy: 0.8878 - auc: 0.9534 - precision: 0.9030 - precision_m: 0.9036 - recall: 0.8695 - recall_m: 0.8721 - f1_m: 0.8863
+155/209 [=====================>........] - ETA: 6s - loss: 0.2721 - accuracy: 0.8882 - auc: 0.9536 - precision: 0.9029 - precision_m: 0.9036 - recall: 0.8701 - recall_m: 0.8728 - f1_m: 0.8867
+156/209 [=====================>........] - ETA: 6s - loss: 0.2723 - accuracy: 0.8882 - auc: 0.9535 - precision: 0.9027 - precision_m: 0.9034 - recall: 0.8705 - recall_m: 0.8732 - f1_m: 0.8867
+157/209 [=====================>........] - ETA: 6s - loss: 0.2720 - accuracy: 0.8884 - auc: 0.9536 - precision: 0.9031 - precision_m: 0.9039 - recall: 0.8703 - recall_m: 0.8730 - f1_m: 0.8869
+158/209 [=====================>........] - ETA: 6s - loss: 0.2723 - accuracy: 0.8881 - auc: 0.9535 - precision: 0.9031 - precision_m: 0.9039 - recall: 0.8699 - recall_m: 0.8726 - f1_m: 0.8867
+159/209 [=====================>........] - ETA: 5s - loss: 0.2722 - accuracy: 0.8882 - auc: 0.9535 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8700 - recall_m: 0.8727 - f1_m: 0.8867
+160/209 [=====================>........] - ETA: 5s - loss: 0.2723 - accuracy: 0.8881 - auc: 0.9534 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8698 - recall_m: 0.8725 - f1_m: 0.8866
+161/209 [======================>.......] - ETA: 5s - loss: 0.2724 - accuracy: 0.8879 - auc: 0.9534 - precision: 0.9026 - precision_m: 0.9033 - recall: 0.8698 - recall_m: 0.8724 - f1_m: 0.8863
+162/209 [======================>.......] - ETA: 5s - loss: 0.2721 - accuracy: 0.8879 - auc: 0.9535 - precision: 0.9026 - precision_m: 0.9033 - recall: 0.8698 - recall_m: 0.8725 - f1_m: 0.8863
+163/209 [======================>.......] - ETA: 5s - loss: 0.2724 - accuracy: 0.8879 - auc: 0.9534 - precision: 0.9025 - precision_m: 0.9032 - recall: 0.8699 - recall_m: 0.8726 - f1_m: 0.8863
+164/209 [======================>.......] - ETA: 5s - loss: 0.2727 - accuracy: 0.8878 - auc: 0.9533 - precision: 0.9024 - precision_m: 0.9031 - recall: 0.8698 - recall_m: 0.8724 - f1_m: 0.8862
+165/209 [======================>.......] - ETA: 5s - loss: 0.2729 - accuracy: 0.8876 - auc: 0.9532 - precision: 0.9022 - precision_m: 0.9029 - recall: 0.8695 - recall_m: 0.8721 - f1_m: 0.8860
+166/209 [======================>.......] - ETA: 5s - loss: 0.2727 - accuracy: 0.8877 - auc: 0.9533 - precision: 0.9024 - precision_m: 0.9032 - recall: 0.8693 - recall_m: 0.8719 - f1_m: 0.8860
+167/209 [======================>.......] - ETA: 4s - loss: 0.2733 - accuracy: 0.8876 - auc: 0.9531 - precision: 0.9028 - precision_m: 0.9036 - recall: 0.8688 - recall_m: 0.8714 - f1_m: 0.8859
+168/209 [=======================>......] - ETA: 4s - loss: 0.2735 - accuracy: 0.8874 - auc: 0.9530 - precision: 0.9025 - precision_m: 0.9032 - recall: 0.8688 - recall_m: 0.8714 - f1_m: 0.8858
+169/209 [=======================>......] - ETA: 4s - loss: 0.2734 - accuracy: 0.8875 - auc: 0.9530 - precision: 0.9026 - precision_m: 0.9034 - recall: 0.8687 - recall_m: 0.8713 - f1_m: 0.8858
+170/209 [=======================>......] - ETA: 4s - loss: 0.2733 - accuracy: 0.8875 - auc: 0.9530 - precision: 0.9024 - precision_m: 0.9032 - recall: 0.8688 - recall_m: 0.8714 - f1_m: 0.8857
+171/209 [=======================>......] - ETA: 4s - loss: 0.2729 - accuracy: 0.8877 - auc: 0.9531 - precision: 0.9028 - precision_m: 0.9035 - recall: 0.8688 - recall_m: 0.8714 - f1_m: 0.8859
+172/209 [=======================>......] - ETA: 4s - loss: 0.2728 - accuracy: 0.8877 - auc: 0.9532 - precision: 0.9026 - precision_m: 0.9033 - recall: 0.8689 - recall_m: 0.8715 - f1_m: 0.8859
+173/209 [=======================>......] - ETA: 4s - loss: 0.2728 - accuracy: 0.8878 - auc: 0.9532 - precision: 0.9027 - precision_m: 0.9035 - recall: 0.8689 - recall_m: 0.8715 - f1_m: 0.8859
+174/209 [=======================>......] - ETA: 4s - loss: 0.2729 - accuracy: 0.8879 - auc: 0.9531 - precision: 0.9028 - precision_m: 0.9035 - recall: 0.8689 - recall_m: 0.8714 - f1_m: 0.8859
+175/209 [========================>.....] - ETA: 4s - loss: 0.2732 - accuracy: 0.8878 - auc: 0.9530 - precision: 0.9030 - precision_m: 0.9037 - recall: 0.8686 - recall_m: 0.8712 - f1_m: 0.8859
+176/209 [========================>.....] - ETA: 3s - loss: 0.2731 - accuracy: 0.8878 - auc: 0.9531 - precision: 0.9031 - precision_m: 0.9039 - recall: 0.8685 - recall_m: 0.8710 - f1_m: 0.8859
+177/209 [========================>.....] - ETA: 3s - loss: 0.2729 - accuracy: 0.8879 - auc: 0.9531 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8686 - recall_m: 0.8711 - f1_m: 0.8859
+178/209 [========================>.....] - ETA: 3s - loss: 0.2738 - accuracy: 0.8876 - auc: 0.9529 - precision: 0.9029 - precision_m: 0.9037 - recall: 0.8682 - recall_m: 0.8707 - f1_m: 0.8856
+179/209 [========================>.....] - ETA: 3s - loss: 0.2737 - accuracy: 0.8878 - auc: 0.9529 - precision: 0.9029 - precision_m: 0.9036 - recall: 0.8685 - recall_m: 0.8711 - f1_m: 0.8858
+180/209 [========================>.....] - ETA: 3s - loss: 0.2741 - accuracy: 0.8877 - auc: 0.9528 - precision: 0.9032 - precision_m: 0.9040 - recall: 0.8681 - recall_m: 0.8707 - f1_m: 0.8857
+181/209 [========================>.....] - ETA: 3s - loss: 0.2743 - accuracy: 0.8877 - auc: 0.9528 - precision: 0.9032 - precision_m: 0.9039 - recall: 0.8681 - recall_m: 0.8707 - f1_m: 0.8857
+182/209 [=========================>....] - ETA: 3s - loss: 0.2743 - accuracy: 0.8877 - auc: 0.9527 - precision: 0.9032 - precision_m: 0.9040 - recall: 0.8682 - recall_m: 0.8707 - f1_m: 0.8858
+183/209 [=========================>....] - ETA: 3s - loss: 0.2744 - accuracy: 0.8877 - auc: 0.9527 - precision: 0.9034 - precision_m: 0.9041 - recall: 0.8681 - recall_m: 0.8707 - f1_m: 0.8858
+184/209 [=========================>....] - ETA: 2s - loss: 0.2744 - accuracy: 0.8876 - auc: 0.9527 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8682 - recall_m: 0.8707 - f1_m: 0.8857
+185/209 [=========================>....] - ETA: 2s - loss: 0.2743 - accuracy: 0.8877 - auc: 0.9527 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8683 - recall_m: 0.8709 - f1_m: 0.8858
+186/209 [=========================>....] - ETA: 2s - loss: 0.2747 - accuracy: 0.8875 - auc: 0.9526 - precision: 0.9031 - precision_m: 0.9038 - recall: 0.8679 - recall_m: 0.8705 - f1_m: 0.8856
+187/209 [=========================>....] - ETA: 2s - loss: 0.2748 - accuracy: 0.8875 - auc: 0.9525 - precision: 0.9032 - precision_m: 0.9039 - recall: 0.8680 - recall_m: 0.8705 - f1_m: 0.8856
+188/209 [=========================>....] - ETA: 2s - loss: 0.2750 - accuracy: 0.8874 - auc: 0.9525 - precision: 0.9030 - precision_m: 0.9037 - recall: 0.8678 - recall_m: 0.8703 - f1_m: 0.8854
+189/209 [==========================>...] - ETA: 2s - loss: 0.2747 - accuracy: 0.8876 - auc: 0.9526 - precision: 0.9031 - precision_m: 0.9037 - recall: 0.8681 - recall_m: 0.8705 - f1_m: 0.8856
+190/209 [==========================>...] - ETA: 2s - loss: 0.2748 - accuracy: 0.8875 - auc: 0.9525 - precision: 0.9032 - precision_m: 0.9038 - recall: 0.8680 - recall_m: 0.8705 - f1_m: 0.8856
+191/209 [==========================>...] - ETA: 2s - loss: 0.2748 - accuracy: 0.8874 - auc: 0.9525 - precision: 0.9031 - precision_m: 0.9037 - recall: 0.8679 - recall_m: 0.8703 - f1_m: 0.8855
+192/209 [==========================>...] - ETA: 2s - loss: 0.2747 - accuracy: 0.8875 - auc: 0.9526 - precision: 0.9030 - precision_m: 0.9037 - recall: 0.8682 - recall_m: 0.8707 - f1_m: 0.8856
+193/209 [==========================>...] - ETA: 1s - loss: 0.2745 - accuracy: 0.8874 - auc: 0.9526 - precision: 0.9027 - precision_m: 0.9034 - recall: 0.8683 - recall_m: 0.8707 - f1_m: 0.8855
+194/209 [==========================>...] - ETA: 1s - loss: 0.2751 - accuracy: 0.8871 - auc: 0.9524 - precision: 0.9022 - precision_m: 0.9030 - recall: 0.8680 - recall_m: 0.8705 - f1_m: 0.8852
+195/209 [==========================>...] - ETA: 1s - loss: 0.2751 - accuracy: 0.8872 - auc: 0.9524 - precision: 0.9025 - precision_m: 0.9033 - recall: 0.8679 - recall_m: 0.8703 - f1_m: 0.8853
+196/209 [===========================>..] - ETA: 1s - loss: 0.2756 - accuracy: 0.8872 - auc: 0.9523 - precision: 0.9024 - precision_m: 0.9031 - recall: 0.8680 - recall_m: 0.8703 - f1_m: 0.8852
+197/209 [===========================>..] - ETA: 1s - loss: 0.2758 - accuracy: 0.8872 - auc: 0.9522 - precision: 0.9026 - precision_m: 0.9033 - recall: 0.8678 - recall_m: 0.8702 - f1_m: 0.8852
+198/209 [===========================>..] - ETA: 1s - loss: 0.2759 - accuracy: 0.8872 - auc: 0.9522 - precision: 0.9026 - precision_m: 0.9033 - recall: 0.8678 - recall_m: 0.8702 - f1_m: 0.8852
+199/209 [===========================>..] - ETA: 1s - loss: 0.2761 - accuracy: 0.8871 - auc: 0.9522 - precision: 0.9026 - precision_m: 0.9033 - recall: 0.8676 - recall_m: 0.8700 - f1_m: 0.8851
+200/209 [===========================>..] - ETA: 1s - loss: 0.2766 - accuracy: 0.8868 - auc: 0.9520 - precision: 0.9024 - precision_m: 0.9031 - recall: 0.8673 - recall_m: 0.8697 - f1_m: 0.8849
+201/209 [===========================>..] - ETA: 0s - loss: 0.2769 - accuracy: 0.8866 - auc: 0.9519 - precision: 0.9025 - precision_m: 0.9032 - recall: 0.8670 - recall_m: 0.8693 - f1_m: 0.8847
+202/209 [===========================>..] - ETA: 0s - loss: 0.2768 - accuracy: 0.8867 - auc: 0.9519 - precision: 0.9023 - precision_m: 0.9030 - recall: 0.8671 - recall_m: 0.8695 - f1_m: 0.8847
+203/209 [============================>.] - ETA: 0s - loss: 0.2769 - accuracy: 0.8867 - auc: 0.9519 - precision: 0.9023 - precision_m: 0.9030 - recall: 0.8671 - recall_m: 0.8695 - f1_m: 0.8847
+204/209 [============================>.] - ETA: 0s - loss: 0.2769 - accuracy: 0.8868 - auc: 0.9519 - precision: 0.9028 - precision_m: 0.9035 - recall: 0.8669 - recall_m: 0.8693 - f1_m: 0.8848
+205/209 [============================>.] - ETA: 0s - loss: 0.2773 - accuracy: 0.8866 - auc: 0.9518 - precision: 0.9027 - precision_m: 0.9034 - recall: 0.8666 - recall_m: 0.8690 - f1_m: 0.8847
+206/209 [============================>.] - ETA: 0s - loss: 0.2774 - accuracy: 0.8866 - auc: 0.9517 - precision: 0.9025 - precision_m: 0.9032 - recall: 0.8667 - recall_m: 0.8691 - f1_m: 0.8846
+207/209 [============================>.] - ETA: 0s - loss: 0.2772 - accuracy: 0.8867 - auc: 0.9518 - precision: 0.9027 - precision_m: 0.9034 - recall: 0.8668 - recall_m: 0.8692 - f1_m: 0.8848
+208/209 [============================>.] - ETA: 0s - loss: 0.2774 - accuracy: 0.8868 - auc: 0.9517 - precision: 0.9028 - precision_m: 0.9035 - recall: 0.8669 - recall_m: 0.8692 - f1_m: 0.8848
+209/209 [==============================] - ETA: 0s - loss: 0.2777 - accuracy: 0.8867 - auc: 0.9516 - precision: 0.9028 - precision_m: 0.9035 - recall: 0.8668 - recall_m: 0.8692 - f1_m: 0.8848
+209/209 [==============================] - 33s 157ms/step - loss: 0.2777 - accuracy: 0.8867 - auc: 0.9516 - precision: 0.9028 - precision_m: 0.9035 - recall: 0.8668 - recall_m: 0.8692 - f1_m: 0.8848 - val_loss: 0.2683 - val_accuracy: 0.8882 - val_auc: 0.9575 - val_precision: 0.9378 - val_precision_m: 0.9380 - val_recall: 0.8312 - val_recall_m: 0.8321 - val_f1_m: 0.8808
