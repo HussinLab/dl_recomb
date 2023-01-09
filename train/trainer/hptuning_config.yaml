@@ -1,0 +1,86 @@
+trainingInput:
+    hyperparameters:
+        goal: MAXIMIZE
+        maxTrials: 300
+        maxParallelTrials: 3
+        hyperparameterMetricTag: f1_score_mc
+        enableTrialEarlyStopping: TRUE 
+
+        params:
+            - parameterName: first_cnn_filter_size
+              type: INTEGER 
+              minValue: 3
+              maxValue: 100
+              scaleType: UNIT_LINEAR_SCALE
+
+            - parameterName: first_cnn_n_filters
+              type: INTEGER
+              minValue:  4
+              maxValue:  512
+              scaleType: UNIT_LOG_SCALE 
+
+            - parameterName: first_cnn_pool_size_strides
+              type: INTEGER
+              minValue:  3
+              maxValue:  20
+              scaleType: UNIT_LINEAR_SCALE 
+
+            - parameterName: n_convs
+              type: INTEGER
+              minValue:  0
+              maxValue:  1
+              scaleType: UNIT_LINEAR_SCALE 
+
+            - parameterName: n_convs_filter_size
+              type: INTEGER 
+              minValue: 3
+              maxValue: 100
+              scaleType: UNIT_LINEAR_SCALE 
+
+            - parameterName: n_convs_n_filters
+              type: INTEGER
+              minValue:  4
+              maxValue:  512
+              scaleType: UNIT_LOG_SCALE 
+
+            - parameterName: n_convs_pool_size_stride
+              type: INTEGER
+              minValue:  3
+              maxValue:  10
+              scaleType: UNIT_LINEAR_SCALE 
+
+            - parameterName: first_fcc_size
+              type: INTEGER
+              minValue:  10
+              maxValue:  1000
+              scaleType: UNIT_LOG_SCALE 
+
+            - parameterName: n_fccs
+              type: INTEGER
+              minValue:  0
+              maxValue:  3
+              scaleType: UNIT_LINEAR_SCALE 
+
+            - parameterName: fccs_size
+              type: INTEGER
+              minValue:  10
+              maxValue:  1000
+              scaleType: UNIT_LINEAR_SCALE
+
+            - parameterName: outputs_separate_fc
+              type: INTEGER
+              minValue:  10
+              maxValue:  1000
+              scaleType: UNIT_LINEAR_SCALE
+
+            - parameterName: lr
+              type: DOUBLE
+              minValue:  0.00001
+              maxValue:  0.02
+              scaleType: UNIT_LOG_SCALE 
+ 
+            - parameterName: dropout_rate
+              type: DOUBLE
+              minValue:  0.2
+              maxValue:  0.5
+              scaleType: UNIT_LINEAR_SCALE 
