@@ -30,11 +30,11 @@ The code provided here allows to:
    
 > python make_refgenome.py -r ./input_data/genome_test/ref_by_chr -c 20 21 -o ./input_data/genome_test/h5/
 
-1. Build a dataset given a hotspot file *input_file*
+2. Build a dataset given a hotspot file *input_file*
   
   > python build_dataset.py -i ./input_data/hotspots/input_test.txt -l 800 -c 20 21 -g ./input_data/genome_test/h5/genome_test.h5
 
-1. Train model
+3. Train model
   > module load cuda cudnn 
 
   > python run_experiment.py -l 800 -p AA1_hotspots -d ./models/new_exp/
