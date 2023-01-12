@@ -27,11 +27,13 @@ import argparse
 # Initialize parser
 parser = argparse.ArgumentParser()
 # Adding optional argument
-parser.add_argument("-l", "--seq_len", help = "Show Output")
-parser.add_argument("-p", "--prefix", help = "Show Output")
 parser.add_argument("-d", "--dataset_path", help = "Show Output")
+parser.add_argument("-c", "--chrom_use",nargs="*", default=[20, 21], help = "Show Output")
 parser.add_argument("-o", "--outdir", help = "Show Output")
 
+infos = args.dataset_path.split('/')
+prefix = infos[len(infos)-1].split('_seqlen=')[0]
+seqlen = infos[len(infos)-1].split('_seqlen=')[1].split('_')[0]
 
 def run_experiment(chrom, seq_len, prefix, fold_fn_name, chrom_idx, outdir, ds_path, niter=0,name_run='new_run'):
 
@@ -239,11 +241,10 @@ random_seed = 123
 batch_size = 128
 use_rev_compl = True
 
-all_chrom = list(range(20,21))
-seq_len = args.seq_len
-prefix = args.prefix
+all_chrom = args.chrom_use
+seq_len = seqlen
 outdir = args.outdir
-ds_path = f"{args.dataset_path}/{prefix}_seqlen={seq_len}_multnegs.h5"
+ds_path = args.dataset_path
 
 n_folds = 3
 chrom_idx = [True,False]

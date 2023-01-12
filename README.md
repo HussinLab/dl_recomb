@@ -49,11 +49,12 @@ python build_dataset/build_dataset.py \
   -o ./build_dataset/datasets/
 ```
 3. Train model
+Running an experiment signifies to train a model with a given a pre-built dataset. The label of interest (prefix) and the length of the intervals are found in the name of the h5 dataset by construction. The -c argument takes the list of chromosome on which to run the experiment. (Note, it should not contain chromosomes that weren't included in the dataset). Finally, -o path/to/path indicates the path of the output folder where the model will be saved. A CSV file is created containing the performance metrics of the model. 
 ```
 python train/run_experiment.py \
-  -l 800 \
-  -p AA1_hotspots \
-  -d ./models/new_exp/
+  -d ./build_dataset/datasets/AA1_hotspots_seqlen=800_multnegs.h5 \
+  -c 20 21 \
+  -o ./models/new_exp/
 ```
 
 # Output
