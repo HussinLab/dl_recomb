@@ -34,6 +34,7 @@ parser.add_argument("-i", "--input", help = "Show Output")
 parser.add_argument("-l", "--seqlen", help = "Show Output")
 parser.add_argument("-c", "--chrom_use",nargs="*", default=[20, 21], help = "Show Output")
 parser.add_argument("-g", "--h5_ref_genome", help = "Show Output")
+parser.add_argument("-p", "--prefix", help = "Show Output")
 parser.add_argument("-o", "--outdir", help = "Show Output")
 
 # Read arguments from command line
@@ -43,7 +44,7 @@ df = pd.read_csv(args.input, sep='\t')
 df['seq_len'] =  df['end'] - df['start']
 df['seq_midpoint'] = df['start'] + ((df['end'] - df['start'])//2)
 
-outputs = ['AA1_hotspots']
+outputs = [args.prefix]
 seq_lens  = [int(args.seqlen)]
 chroms_to_use = args.chrom_use
 negative_sampling_intervals=[(1000,5000), (5000,10000), (10000, 20000), (20000,100000)]
